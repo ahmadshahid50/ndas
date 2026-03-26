@@ -17,7 +17,7 @@ export default function Navbar() {
             <img
               src="/images/logo.png"
               alt="SOVA Care logo"
-              className="h-12 w-auto sm:h-14 md:h-16 lg:h-26 object-contain"
+              className="h-25 w-auto sm:h-14 md:h-16 lg:h-26 object-contain"
             />
           </Link>
 
