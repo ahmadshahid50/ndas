@@ -9,7 +9,7 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-16">
+      <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Our Services</h1>
           <p className="text-xl mt-4 text-teal-100">Comprehensive support tailored to your needs</p>
@@ -34,7 +34,7 @@ export default function Services() {
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src=""
+                src="/images/services.webp"
                 alt="Personal Care Services"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -50,7 +50,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src=""
+                src="/images/services.webp"
                 alt="Daily Living Support"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -88,7 +88,7 @@ export default function Services() {
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src=""
+                src="/images/services.webp"
                 alt="Community Access"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -104,7 +104,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src=""
+                src="/images/services.webp"
                 alt="Domestic Assistance"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -142,7 +142,7 @@ export default function Services() {
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src=""
+                src="/images/services.webp"
                 alt="Companion Care"
                 className="w-full h-full object-cover rounded-lg"
               />

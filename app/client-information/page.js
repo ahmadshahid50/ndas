@@ -9,7 +9,7 @@ export default function ClientInformation() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-16">
+      <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Client Information</h1>
           <p className="text-xl mt-4 text-teal-100">Important documents and information for our clients</p>
@@ -82,7 +82,7 @@ export default function ClientInformation() {
             </div>
             <div className="relative h-96 bg-gray-300 rounded-lg">
               <img
-                src=""
+                src="/images/information.webp"
                 alt="Getting started process"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -199,7 +199,7 @@ export default function ClientInformation() {
               Since you haven't sent your forms yet, we've noted that they will be provided once completed. Once you send us your Service Agreement, Intake Form, and Consent Forms, we'll create direct links to them here for easy access.
             </p>
             <p className="text-gray-700 p-4 bg-white rounded border-l-4 border-teal-600">
-              <strong>Next Step:</strong> Please send your completed forms to <Link href="mailto:info@sovacare.com.au" className="text-teal-600 hover:underline">info@sovacare.com.au</Link>, and we'll add them to this page with download links for your reference.
+              <strong>Next Step:</strong> Please send your completed forms to <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">sovacaresydney.com.au</Link>, and we'll add them to this page with download links for your reference.
             </p>
           </div>
         </div>
@@ -253,13 +253,13 @@ export default function ClientInformation() {
             <div className="space-y-4">
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">📞 Phone</h3>
-                <p className="text-gray-700">1800 000 000 (24 hours)</p>
+                <p className="text-gray-700">042 4333 532 (24 hours)</p>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">📧 Email</h3>
                 <p className="text-gray-700">
-                  <Link href="mailto:info@sovacare.com.au" className="text-teal-600 hover:underline">
-                    info@sovacare.com.au
+                  <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">
+                    sovacaresydney.com.au
                   </Link>
                 </p>
               </div>

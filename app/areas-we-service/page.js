@@ -42,7 +42,7 @@ export default function AreasWeService() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-16">
+      <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Areas We Service</h1>
           <p className="text-xl mt-4 text-teal-100">Supporting communities across Greater Sydney</p>
@@ -70,7 +70,7 @@ export default function AreasWeService() {
               Based in Rockdale, NSW 2216, SOVA Care provides comprehensive support services across the St George area, Sutherland Shire and Greater Sydney region. This includes all suburbs within these regions, with dedicated coverage for our established service areas.
             </p>
             <p className="text-gray-700">
-              <strong>Not sure if your location is in our service area?</strong> Please contact us directly at <Link href="tel:1800000000" className="text-teal-600 hover:underline">1800 000 000</Link> or <Link href="mailto:info@sovacare.com.au" className="text-teal-600 hover:underline">info@sovacare.com.au</Link>, and we'll confirm availability.
+              <strong>Not sure if your location is in our service area?</strong> Please contact us directly at <Link href="tel:042 4333 532" className="text-teal-600 hover:underline">042 4333 532</Link> or <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">sovacaresydney.com.au</Link>, and we'll confirm availability.
             </p>
           </div>
         </div>

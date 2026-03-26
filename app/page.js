@@ -10,36 +10,36 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-teal-600 to-teal-800 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div>
+            <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Working with you, towards your goals. That's our focus.
               </h1>
-              <p className="text-xl mb-8 text-teal-100">
+              <p className="text-xl mb-8 text-white max-w-3xl mx-auto md:mx-0">
                 SOVA Care provides compassionate, respectful and reliable support that helps people maintain their independence and quality of life.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <Link
                   href="/contact#booking"
-                  className="bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center"
+                  className="bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center shadow-lg"
                 >
                   Book Support
                 </Link>
                 <Link
                   href="/contact"
-                  className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-teal-700 transition text-center"
+                  className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-teal-600 transition text-center shadow-lg"
                 >
                   Contact Us
                 </Link>
               </div>
             </div>
-            <div className="relative h-96 bg-gray-300 rounded-lg">
+            <div className="flex justify-center md:justify-end">
               <img
-                src=""
-                alt="Hero image placeholder"
-                className="w-full h-full object-cover rounded-lg"
+                src="/images/main.png"
+                alt="SOVA Care hero image"
+                className="w-full max-w-full rounded-xl shadow-2xl"
               />
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-16">
+      <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Contact Us</h1>
           <p className="text-xl mt-4 text-teal-100">Get in touch with SOVA Care today</p>
@@ -24,12 +24,12 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">📞 Phone</h3>
-              <p className="text-gray-700 mb-2">1800 000 000</p>
+              <p className="text-gray-700 mb-2">042 4333 532</p>
               <p className="text-sm text-gray-600">Available 24 hours</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">📧 Email</h3>
-              <p className="text-gray-700 mb-2">info@sovacare.com.au</p>
+              <p className="text-gray-700 mb-2">sovacaresydney.com.au</p>
               <p className="text-sm text-gray-600">We'll respond within 24 hours</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -130,10 +130,10 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-xl font-bold text-red-900 mb-2">Need Emergency Support?</h3>
           <p className="text-red-800 mb-4">
-            For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
+            For urgent medical emergencies, please call 042 4333 532 (emergency services) immediately or visit your nearest hospital.
           </p>
           <p className="text-red-800">
-            For non-emergency urgent support, contact us at 1800 000 000 (24 hours available) or go to the nearest hospital emergency department.
+            For non-emergency urgent support, contact us at 042 4333 532 (24 hours available) or go to the nearest hospital emergency department.
           </p>
         </div>
       </section>

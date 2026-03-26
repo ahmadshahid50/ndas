@@ -2,7 +2,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0e1524;
+  --sova-primary: #00b4d4;
+  --sova-secondary: #6c3ff6;
+  --sova-accent: #c423c6;
+  --sova-heading: #1f2852;
+  --sova-text: #24303f;
 }
 
 @theme inline {
@@ -12,12 +17,50 @@
   --font-mono: var(--font-geist-mono);
 }
 
+body {
+  background-color: var(--background);
+  color: var(--sova-text);
+}
+
+.bg-sova-primary {
+  background-color: var(--sova-primary);
+}
+
+.bg-sova-secondary {
+  background-color: var(--sova-secondary);
+}
+
+.text-sova-heading {
+  color: var(--sova-heading);
+}
+
+.text-sova-primary {
+  color: var(--sova-primary);
+}
+
+.text-sova-secondary {
+  color: var(--sova-secondary);
+}
+
+.border-sova-primary {
+  border-color: var(--sova-primary);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #020614;
+    --foreground: #eef2ff;
   }
 }
+
+/* Override older teal utility classes with SOVA color palette */
+.bg-teal-600 { background-color: var(--sova-primary) !important; }
+.hover\:bg-teal-700:hover { background-color: var(--sova-secondary) !important; }
+.text-teal-600 { color: var(--sova-primary) !important; }
+.text-teal-100 { color: rgba(255,255,255,0.9) !important; }
+.border-teal-600 { border-color: var(--sova-primary) !important; }
+.bg-teal-50 { background-color: rgba(0,180,212,0.08) !important; }
+
 
 body {
   background: var(--background);
