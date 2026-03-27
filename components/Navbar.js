@@ -104,14 +104,14 @@ export default function Navbar() {
             onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
           >
             Services
-            <svg
+            {/* <svg
               className={`w-4 h-4 ml-1 transition-transform ${isServicesDropdownOpen ? 'rotate-180' : ''}`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
+            </svg> */}
           </button>
           {isServicesDropdownOpen && (
             <div className="pl-4">
@@ -129,14 +129,14 @@ export default function Navbar() {
             onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
           >
             More
-            <svg
+            {/* <svg
               className={`w-4 h-4 ml-1 transition-transform ${isMoreDropdownOpen ? 'rotate-180' : ''}`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
+            </svg> */}
           </button>
 
           {isMoreDropdownOpen && (
