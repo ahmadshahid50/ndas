@@ -21,7 +21,7 @@ export default function CleaningPropertySupport() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-700 mb-12 text-center">
-              At SOVA Care, we understand that maintaining a clean and safe living environment is essential for your well-being. Our Cleaning & Property Support Services are designed to provide reliable assistance with household chores, property maintenance, and general upkeep, allowing you to focus on what matters most.
+              At SOVA Care, we provide practical cleaning and property support services designed to help participants maintain a safe, comfortable, and dignified living environment. Our approach is respectful, reliable, and tailored to individual needs, whether it’s ongoing household support or more complex property clean-ups.
             </p>
 
             <div className="bg-white p-8 rounded-lg shadow-md">

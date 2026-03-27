@@ -22,14 +22,14 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-1">
-            <Link href="/" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">Home</Link>
+            <Link href="/" className="px-3 py-2 text-gray-700 hover:text-teal-600  transition">Home</Link>
             <Link href="/about" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">About</Link>
             <div className="relative group">
               <button className="px-3 py-2 text-gray-700 hover:text-teal-600 transition flex items-center">
                 Services
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {/* <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                </svg>
+                </svg> */}
               </button>
               <div className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition z-50">
                 <Link href="/services" className="block px-4 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">Services Overview</Link>
@@ -44,9 +44,9 @@ export default function Navbar() {
             <div className="relative group">
               <button className="px-3 py-2 text-gray-700 hover:text-teal-600 transition flex items-center">
                 More
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {/* <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                </svg>
+                </svg> */}
               </button>
 
               <div className="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition z-50">
