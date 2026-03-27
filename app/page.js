@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center md:justify-end">
               <img
-                src="/images/main.png"
+                src="/images/hero.jpg"
                 alt="SOVA Care hero image"
                 className="w-full max-w-full rounded-xl shadow-2xl"
               />

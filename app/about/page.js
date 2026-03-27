@@ -38,7 +38,7 @@ export default function About() {
             </div>
             <div className="relative h-96 bg-gray-300 rounded-lg">
               <img
-                src="/images/about.webp"
+                src="/images/prsnl1.jpg"
                 alt="About SOVA Care"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -52,7 +52,7 @@ export default function About() {
               Based in Rockdale, SOVA Care provides support across the St George area, Sutherland Shire and greater Sydney region, helping people remain comfortable, independent and supported in their everyday lives.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['Rockdale', 'Kogarah', 'Hurstville', 'St George Area', 'Sutherland Shire', 'Southern Sydney', 'Greater Sydney'].map((area) => (
+              {['Eastern Suburbs','Northern Beaches','Rockdale', 'Kogarah', 'Hurstville', 'St George Area', 'Sutherland Shire', 'Southern Sydney', 'Greater Sydney'].map((area) => (
                 <div key={area} className="bg-white p-4 rounded-md text-center">
                   <p className="text-gray-700 font-semibold">{area}</p>
                 </div>

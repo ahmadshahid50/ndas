@@ -33,7 +33,6 @@ export default function Services() {
             <ServiceCard
               title="What We Provide"
               items={[
-                'Showering & grooming assistance',
                 'Dressing support',
                 'Toileting assistance',
                 'Mobility support and transfers',
@@ -43,7 +42,7 @@ export default function Services() {
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src="/images/services.webp"
+                src="/images/prsnl2.jpg"
                 alt="Personal Care Services"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -59,7 +58,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src="/images/services.webp"
+                src="/images/support1.webp"
                 alt="Daily Living Support"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -97,7 +96,7 @@ export default function Services() {
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src="/images/services.webp"
+                src="/images/support2.jpg"
                 alt="Community Access"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -113,7 +112,7 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src="/images/services.webp"
+                src="/images/support3.jpg"
                 alt="Domestic Assistance"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -151,7 +150,7 @@ export default function Services() {
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
-                src="/images/services.webp"
+                src="/images/support4.jpg"
                 alt="Companion Care"
                 className="w-full h-full object-cover rounded-lg"
               />

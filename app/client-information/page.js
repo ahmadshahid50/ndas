@@ -92,7 +92,7 @@ export default function ClientInformation() {
             </div>
             <div className="relative h-96 bg-gray-300 rounded-lg">
               <img
-                src="/images/information.webp"
+                src="/images/agedcare.jpg"
                 alt="Getting started process"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -362,7 +362,7 @@ export default function ClientInformation() {
                   Phone
                 </h3>
                 <Link href="tel:0424333532">
-                <p className="text-gray-700">0424 333 532 (24 hours)</p>
+                <p className="text-teal-600 hover:underline">0424 333 532 (24 hours)</p>
                 </Link>
               </div>
               <div>

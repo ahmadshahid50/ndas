@@ -56,7 +56,7 @@ export default function Contact() {
               We provide services across the Greater Sydney region, with particular focus on:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['Northern Beaches','Eastern Suburbs','Rockdale', 'Kogarah', 'Hurstville', 'Carss Park', 'Kingsgrove', 'Beverly Hills', 'Sutherland', 'Cronulla'].map((area) => (
+              {['Eastern Suburbs','Northern Beaches','Rockdale', 'Kogarah', 'Hurstville', 'Carss Park', 'Kingsgrove', 'Beverly Hills', 'Sutherland', 'Cronulla'].map((area) => (
                 <div key={area} className="bg-white p-4 rounded-md">
                   <p className="text-gray-700 font-semibold text-center">{area}</p>
                 </div>
