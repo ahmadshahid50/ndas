@@ -57,10 +57,9 @@ export default function Home() {
               icon="📋"
               title="Qualifications"
               items={[
-                'Cert III in Disability Support',
-                'Cert IV in Disability Support',
-                'First Aid Certified',
-                'CPR Certified',
+                'Cert III in Aged Care Work',
+                'Cert IV in Aged Care Work',
+                'Cert IV in Health and Leisure',
               ]}
             />
             <ServiceCard
@@ -98,7 +97,7 @@ export default function Home() {
               icon="🛁"
               title="Personal Care"
               description="Help with daily personal care needs"
-              items={['Showering & grooming', 'Dressing', 'Toileting assistance', 'Mobility support']}
+              items={['Personal hygiene assistance', 'Dressing', 'Toileting assistance', 'Mobility support']}
             />
             <ServiceCard
               icon="🍽️"

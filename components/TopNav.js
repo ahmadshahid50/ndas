@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function TopNav() {
   return (
-    <div className="bg-teal-600 text-white py-3">
+    <div className="bg-teal-600 text-white py-1">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-2 md:flex-row md:justify-between md:items-center">
           <div className="flex flex-col md:flex-row md:items-center md:space-x-6 space-y-2 md:space-y-0 text-center md:text-left">

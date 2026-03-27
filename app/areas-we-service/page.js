@@ -8,6 +8,16 @@ export const metadata = {
 export default function AreasWeService() {
   const areas = [
     {
+      name: 'Eastern Suburbs',
+      description: 'Our home base, where we provide comprehensive support services.',
+      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
+    },
+    {
+      name: 'Northern Beaches',
+      description: 'Our home base, where we provide comprehensive support services.',
+      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
+    },
+    {
       name: 'Rockdale',
       description: 'Our home base, where we provide comprehensive support services.',
       suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
@@ -37,6 +47,7 @@ export default function AreasWeService() {
       description: 'We service additional areas across Greater Sydney - contact us to confirm.',
       suburbs: ['And many more...'],
     },
+    
   ];
 
   return (
