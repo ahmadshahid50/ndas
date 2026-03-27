@@ -1,5 +1,14 @@
 import ServiceCard from '@/components/ServiceCard';
 import Link from 'next/link';
+import {
+  BriefcaseIcon,
+  AcademicCapIcon,
+  ShieldCheckIcon,
+  HeartIcon,
+  WrenchScrewdriverIcon,
+  MapPinIcon,
+  UserGroupIcon,
+} from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Aged Care Support - SOVA Care',
@@ -33,7 +42,7 @@ export default function AgedCare() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Types of Aged Care Support</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <ServiceCard
-              icon="💰"
+              icon={BriefcaseIcon}
               title="Private Aged Care Clients"
               description="Arrange and fund your own care support privately."
               items={[
@@ -45,7 +54,7 @@ export default function AgedCare() {
               ]}
             />
             <ServiceCard
-              icon="📋"
+              icon={AcademicCapIcon}
               title="Home Care Package (HCP) Clients"
               description="Receive support through your government-funded Home Care Package."
               items={[
@@ -57,7 +66,7 @@ export default function AgedCare() {
               ]}
             />
             <ServiceCard
-              icon="🏦"
+              icon={BriefcaseIcon}
               title="Self-Funded Retirees"
               description="Private support for those funding care independently."
               items={[
@@ -69,7 +78,7 @@ export default function AgedCare() {
               ]}
             />
             <ServiceCard
-              icon="🎯"
+              icon={ShieldCheckIcon}
               title="Veterans & Others"
               description="Support for those with alternative funding sources."
               items={[
@@ -90,32 +99,32 @@ export default function AgedCare() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Support May Include</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ServiceCard
-              icon="🛁"
+              icon={HeartIcon}
               title="Personal Care"
               items={['Showering & dressing', 'Grooming', 'Toileting assistance', 'Mobility support']}
             />
             <ServiceCard
-              icon="🍳"
+              icon={WrenchScrewdriverIcon}
               title="Daily Living Tasks"
               items={['Meal preparation', 'Shopping', 'Household cleaning', 'Medication reminders']}
             />
             <ServiceCard
-              icon="🚗"
+              icon={MapPinIcon}
               title="Community Access"
               items={['Appointments', 'Social outings', 'Transport', 'Recreation']}
             />
             <ServiceCard
-              icon="💬"
+              icon={UserGroupIcon}
               title="Companionship"
               items={['Social engagement', 'Conversation', 'Event attendance', 'Emotional support']}
             />
             <ServiceCard
-              icon="🏥"
+              icon={HeartIcon}
               title="Health Support"
               items={['Recovery assistance', 'Post-hospital support', 'Health monitoring', 'Medical appointments']}
             />
             <ServiceCard
-              icon="🏠"
+              icon={WrenchScrewdriverIcon}
               title="Home Maintenance"
               items={['Light cleaning', 'Laundry', 'Home organization', 'Yard help']}
             />

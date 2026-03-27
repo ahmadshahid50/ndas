@@ -1,4 +1,5 @@
 import ServiceCard from '@/components/ServiceCard';
+import { UserGroupIcon, DocumentTextIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'NDIS Support - SOVA Care',
@@ -32,7 +33,7 @@ export default function NDISSupport() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">NDIS Plan Types We Support</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ServiceCard
-              icon="🤝"
+              icon={UserGroupIcon}
               title="Self-Managed Participants"
               description="You manage your own NDIS budget and organize support services directly."
               items={[
@@ -44,7 +45,7 @@ export default function NDISSupport() {
               ]}
             />
             <ServiceCard
-              icon="📊"
+              icon={DocumentTextIcon}
               title="Plan-Managed Participants"
               description="Your plan manager handles financial arrangements with service providers."
               items={[
@@ -71,17 +72,35 @@ export default function NDISSupport() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Standard Rates</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Hourly support rates</li>
-                  <li>✓ Competitive pricing</li>
-                  <li>✓ Transparent invoicing</li>
+                  <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Hourly support rates</span>
+                </li>
+                  <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Competitive pricing</span>
+                </li>
+                  <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Transparent invoicing</span>
+                </li>
                 </ul>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Additional Costs</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Weekend and evening rates</li>
-                  <li>✓ Travel time and costs</li>
-                  <li>✓ Specialized support premiums</li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                    <span>Weekend and evening rates</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                    <span>Travel time and costs</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                    <span>Specialized support premiums</span>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import ServiceCard from '@/components/ServiceCard';
+import { AcademicCapIcon, ShieldCheckIcon, DocumentTextIcon } from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'About Us - SOVA Care',
@@ -69,7 +70,7 @@ export default function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ServiceCard
-              icon="🎓"
+              icon={AcademicCapIcon}
               title="Qualifications"
               items={[
                 'Cert III in Disability Support',
@@ -79,7 +80,7 @@ export default function About() {
               ]}
             />
             <ServiceCard
-              icon="🛡️"
+              icon={ShieldCheckIcon}
               title="Screening & Checks"
               items={[
                 'Police Check - Cleared',
@@ -89,7 +90,7 @@ export default function About() {
               ]}
             />
             <ServiceCard
-              icon="📋"
+              icon={DocumentTextIcon}
               title="Insurance & Compliance"
               items={[
                 'Comprehensive Insurance Coverage',

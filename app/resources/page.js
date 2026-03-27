@@ -1,4 +1,14 @@
 import Link from 'next/link';
+import {
+  DocumentTextIcon,
+  UserGroupIcon,
+  MapPinIcon,
+  QuestionMarkCircleIcon,
+  HeartIcon,
+  BriefcaseIcon,
+  CheckCircleIcon,
+  ShieldCheckIcon,
+} from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Resources - SOVA Care',
@@ -99,7 +109,10 @@ export default function Resources() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">External Resources & Support</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">🏛️ Government & Official</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <DocumentTextIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Government & Official
+              </h3>
               <ul className="space-y-3">
                 <li>
                   <a href="https://www.ndia.gov.au" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-semibold">
@@ -123,7 +136,10 @@ export default function Resources() {
             </div>
 
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">❤️ Support & Advocacy</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <UserGroupIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Support & Advocacy
+              </h3>
               <ul className="space-y-3">
                 <li>
                   <a href="https://www.carersnsw.org.au" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-semibold">
@@ -147,7 +163,10 @@ export default function Resources() {
             </div>
 
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">🔍 Finding Services</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <MapPinIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Finding Services
+              </h3>
               <ul className="space-y-3">
                 <li>
                   <a href="https://www.planmanagementassociation.com.au" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-semibold">
@@ -201,7 +220,10 @@ export default function Resources() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Common Questions & Topics</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">❓ Getting Started with NDIS</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <QuestionMarkCircleIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Getting Started with NDIS
+              </h3>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li>• How do I apply for NDIS?</li>
                 <li>• What makes someone eligible?</li>
@@ -215,7 +237,10 @@ export default function Resources() {
             </div>
 
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">👵 Aged Care Pathway</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <HeartIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Aged Care Pathway
+              </h3>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li>• Types of aged care available</li>
                 <li>• Accessing Home Care Packages</li>
@@ -229,7 +254,10 @@ export default function Resources() {
             </div>
 
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">💼 Choosing Support Services</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <BriefcaseIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Choosing Support Services
+              </h3>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li>• What to look for in a provider</li>
                 <li>• Questions to ask support workers</li>
@@ -243,7 +271,10 @@ export default function Resources() {
             </div>
 
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">👨‍👩‍👧 Family & Carer Support</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <UserGroupIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Family & Carer Support
+              </h3>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li>• Supporting a family member</li>
                 <li>• Respite and break care</li>
@@ -265,17 +296,23 @@ export default function Resources() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg text-center border-2 border-dashed border-gray-300">
-              <div className="text-4xl mb-3">📄</div>
+              <div className="inline-flex items-center justify-center bg-blue-100 p-3 rounded-full mx-auto mb-3 w-12 h-12">
+                <DocumentTextIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+              </div>
               <h3 className="font-bold text-gray-900 mb-2">Care Planning Guide</h3>
               <p className="text-gray-600 text-sm mb-4">Coming soon</p>
             </div>
             <div className="bg-white p-6 rounded-lg text-center border-2 border-dashed border-gray-300">
-              <div className="text-4xl mb-3">✅</div>
+              <div className="inline-flex items-center justify-center bg-blue-100 p-3 rounded-full mx-auto mb-3 w-12 h-12">
+                <CheckCircleIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+              </div>
               <h3 className="font-bold text-gray-900 mb-2">Support Worker Checklist</h3>
               <p className="text-gray-600 text-sm mb-4">Coming soon</p>
             </div>
             <div className="bg-white p-6 rounded-lg text-center border-2 border-dashed border-gray-300">
-              <div className="text-4xl mb-3">🎯</div>
+              <div className="inline-flex items-center justify-center bg-blue-100 p-3 rounded-full mx-auto mb-3 w-12 h-12">
+                <ShieldCheckIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+              </div>
               <h3 className="font-bold text-gray-900 mb-2">NDIS Plan Templates</h3>
               <p className="text-gray-600 text-sm mb-4">Coming soon</p>
             </div>

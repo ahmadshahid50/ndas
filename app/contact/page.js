@@ -1,6 +1,7 @@
 import ContactForm from '@/components/ContactForm';
 import BookingForm from '@/components/BookingForm';
 import Link from 'next/link';
+import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Contact Us - SOVA Care',
@@ -23,17 +24,26 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">📞 Phone</h3>
-              <p className="text-gray-700 mb-2">042 4333 532</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <PhoneIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Phone
+              </h3>
+              <p className="text-gray-700 mb-2">0424 333 532</p>
               <p className="text-sm text-gray-600">Available 24 hours</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">📧 Email</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <EnvelopeIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Email
+              </h3>
               <p className="text-gray-700 mb-2">sovacaresydney.com.au</p>
               <p className="text-sm text-gray-600">We'll respond within 24 hours</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">📍 Location</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <MapPinIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Location
+              </h3>
               <p className="text-gray-700 mb-2">Rockdale, NSW 2216</p>
               <p className="text-sm text-gray-600">Service areas: Greater Sydney</p>
             </div>
@@ -46,7 +56,7 @@ export default function Contact() {
               We provide services across the Greater Sydney region, with particular focus on:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['Rockdale', 'Kogarah', 'Hurstville', 'Carss Park', 'Kingsgrove', 'Beverly Hills', 'Sutherland', 'Cronulla'].map((area) => (
+              {['Northern Beaches','Eastern Suburbs','Rockdale', 'Kogarah', 'Hurstville', 'Carss Park', 'Kingsgrove', 'Beverly Hills', 'Sutherland', 'Cronulla'].map((area) => (
                 <div key={area} className="bg-white p-4 rounded-md">
                   <p className="text-gray-700 font-semibold text-center">{area}</p>
                 </div>
@@ -130,10 +140,10 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-xl font-bold text-red-900 mb-2">Need Emergency Support?</h3>
           <p className="text-red-800 mb-4">
-            For urgent medical emergencies, please call 042 4333 532 (emergency services) immediately or visit your nearest hospital.
+            For urgent medical emergencies, please call 0424 333 532 (emergency services) immediately or visit your nearest hospital.
           </p>
           <p className="text-red-800">
-            For non-emergency urgent support, contact us at 042 4333 532 (24 hours available) or go to the nearest hospital emergency department.
+            For non-emergency urgent support, contact us at 0424 333 532 (24 hours available) or go to the nearest hospital emergency department.
           </p>
         </div>
       </section>

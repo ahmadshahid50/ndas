@@ -31,6 +31,8 @@ export default function BookingForm() {
     'Sutherland Shire',
     'Southern Sydney',
     'Greater Sydney',
+    'Eastern Suburbs',
+    'Northern Beaches'
   ];
 
   const handleChange = (e) => {
@@ -115,8 +117,8 @@ export default function BookingForm() {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
-          placeholder="Your full name"
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
+          placeholder="Your full Name"
           required
         />
       </div>
@@ -130,7 +132,7 @@ export default function BookingForm() {
           name="participantName"
           value={formData.participantName}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
+          className="text-gray-500 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
           placeholder="Name of participant receiving care"
           required
         />
@@ -144,7 +146,7 @@ export default function BookingForm() {
           name="ndisType"
           value={formData.ndisType}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
+          className="text-gray-500 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
           required
         >
           <option value="">Select plan type</option>
@@ -183,7 +185,7 @@ export default function BookingForm() {
           name="location"
           value={formData.location}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
+          className="text-gray-500 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
           required
         >
           <option value="">Select location</option>
@@ -203,7 +205,7 @@ export default function BookingForm() {
           name="preferredContact"
           value={formData.preferredContact}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
+          className="text-gray-500 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
           required
         >
           <option value="">Select contact method</option>

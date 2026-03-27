@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { MapPinIcon, ClockIcon, ShieldCheckIcon } from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Areas We Service - SOVA Care',
@@ -81,7 +82,7 @@ export default function AreasWeService() {
               Based in Rockdale, NSW 2216, SOVA Care provides comprehensive support services across the St George area, Sutherland Shire and Greater Sydney region. This includes all suburbs within these regions, with dedicated coverage for our established service areas.
             </p>
             <p className="text-gray-700">
-              <strong>Not sure if your location is in our service area?</strong> Please contact us directly at <Link href="tel:042 4333 532" className="text-teal-600 hover:underline">042 4333 532</Link> or <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">sovacaresydney.com.au</Link>, and we'll confirm availability.
+              <strong>Not sure if your location is in our service area?</strong> Please contact us directly at <Link href="tel:042 4333 532" className="text-teal-600 hover:underline">0424 333 532</Link> or <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">sovacaresydney.com.au</Link>, and we'll confirm availability.
             </p>
           </div>
         </div>
@@ -114,19 +115,28 @@ export default function AreasWeService() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why Local Support Matters</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-teal-600 mb-3">🏘️ Community Knowledge</h3>
+              <h3 className="text-xl font-bold text-teal-600 mb-3 flex items-center gap-2">
+                <MapPinIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Community Knowledge
+              </h3>
               <p className="text-gray-700">
                 As a local business, we understand the unique needs and characteristics of each community we serve.
               </p>
             </div>
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-teal-600 mb-3">⏰ Quick Response</h3>
+              <h3 className="text-xl font-bold text-teal-600 mb-3 flex items-center gap-2">
+                <ClockIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Quick Response
+              </h3>
               <p className="text-gray-700">
                 Our local presence means faster response times and more flexible scheduling to suit your needs.
               </p>
             </div>
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-teal-600 mb-3">🤝 Community Trust</h3>
+              <h3 className="text-xl font-bold text-teal-600 mb-3 flex items-center gap-2">
+                <ShieldCheckIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Community Trust
+              </h3>
               <p className="text-gray-700">
                 We're committed to building long-term relationships within our local communities and earning your trust.
               </p>

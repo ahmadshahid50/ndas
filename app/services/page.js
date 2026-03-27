@@ -1,4 +1,13 @@
 import ServiceCard from '@/components/ServiceCard';
+import {
+  HeartIcon,
+  WrenchScrewdriverIcon,
+  MapPinIcon,
+  UserGroupIcon,
+  BriefcaseIcon,
+  ClockIcon,
+  SparklesIcon,
+} from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Services - SOVA Care',
@@ -157,17 +166,17 @@ export default function Services() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Flexible & Personalized</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ServiceCard
-              icon="⏰"
+              icon={ClockIcon}
               title="Flexible Hours"
               description="We work around your schedule with flexible support hours to suit your needs."
             />
             <ServiceCard
-              icon="🎯"
+              icon={SparklesIcon}
               title="Tailored Support"
               description="Every care plan is customized to your specific goals, preferences and routines."
             />
             <ServiceCard
-              icon="💪"
+              icon={UserGroupIcon}
               title="Independence Focused"
               description="We support you in maintaining and building your independence and skills."
             />

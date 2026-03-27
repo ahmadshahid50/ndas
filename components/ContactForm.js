@@ -72,8 +72,8 @@ export default function ContactForm() {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
-          placeholder="Your name"
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
+          placeholder="Your Name"
           required
         />
       </div>
@@ -87,7 +87,7 @@ export default function ContactForm() {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
           placeholder="your.email@example.com"
           required
         />
@@ -102,8 +102,8 @@ export default function ContactForm() {
           name="phone"
           value={formData.phone}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
-          placeholder="02 9000 0000"
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
+          placeholder="0290 000 000"
           required
         />
       </div>
@@ -116,8 +116,8 @@ export default function ContactForm() {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600"
-          placeholder="Tell us how we can help..."
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
+          placeholder="Tell us how we can help?"
           rows="5"
         />
       </div>
@@ -125,7 +125,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={isPending}
-        className="w-full bg-teal-600 text-white py-2 rounded-md hover:bg-teal-700 transition disabled:opacity-50 disabled:cursor-not-allowed font-semibold"
+        className="w-full bg-teal-600 text-white py-2 rounded-md hover:bg-teal-700 transition disabled:opacity-50 disabled:cursor-not-allowed font-semibold cursor-pointer"
       >
         {isPending ? 'Sending...' : 'Send Message'}
       </button>

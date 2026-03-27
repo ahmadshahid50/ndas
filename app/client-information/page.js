@@ -1,4 +1,14 @@
 import Link from 'next/link';
+import {
+  DocumentTextIcon,
+  ClipboardDocumentListIcon,
+  PencilSquareIcon,
+  CheckCircleIcon,
+  ShieldCheckIcon,
+  PhoneIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+} from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Client Information - SOVA Care',
@@ -102,7 +112,9 @@ export default function ClientInformation() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-teal-600">
               <div className="flex items-start gap-4 mb-4">
-                <span className="text-3xl">📋</span>
+                <div className="bg-blue-100 p-2 rounded-full inline-flex items-center justify-center">
+                  <DocumentTextIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900">Service Agreement</h3>
                 </div>
@@ -111,12 +123,30 @@ export default function ClientInformation() {
                 A comprehensive agreement outlining:
               </p>
               <ul className="space-y-2 text-gray-700 text-sm mb-6">
-                <li>✓ Types and scope of support</li>
-                <li>✓ Frequency and schedule</li>
-                <li>✓ Support worker information</li>
-                <li>✓ Pricing and payment terms</li>
-                <li>✓ Cancellation and modification policies</li>
-                <li>✓ Rights and responsibilities</li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Types and scope of support</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Frequency and schedule</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Support worker information</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Pricing and payment terms</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Cancellation and modification policies</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Rights and responsibilities</span>
+                </li>
               </ul>
               <p className="text-sm text-gray-600">
                 <strong>Status:</strong> Will be provided during initial consultation
@@ -125,7 +155,9 @@ export default function ClientInformation() {
 
             <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-teal-600">
               <div className="flex items-start gap-4 mb-4">
-                <span className="text-3xl">📝</span>
+                <div className="bg-blue-100 p-2 rounded-full inline-flex items-center justify-center">
+                  <ClipboardDocumentListIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900">Client Intake Form</h3>
                 </div>
@@ -134,12 +166,30 @@ export default function ClientInformation() {
                 A detailed form collecting essential information:
               </p>
               <ul className="space-y-2 text-gray-700 text-sm mb-6">
-                <li>✓ Personal and contact details</li>
-                <li>✓ Emergency contacts</li>
-                <li>✓ Medical information</li>
-                <li>✓ Support requirements</li>
-                <li>✓ Preferences and goals</li>
-                <li>✓ Important communication needs</li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Personal and contact details</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Emergency contacts</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Medical information</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Support requirements</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Preferences and goals</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Important communication needs</span>
+                </li>
               </ul>
               <p className="text-sm text-gray-600">
                 <strong>Status:</strong> To be completed before services begin
@@ -148,7 +198,9 @@ export default function ClientInformation() {
 
             <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-teal-600">
               <div className="flex items-start gap-4 mb-4">
-                <span className="text-3xl">✅</span>
+                <div className="bg-blue-100 p-2 rounded-full inline-flex items-center justify-center">
+                  <CheckCircleIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900">Consent Forms</h3>
                 </div>
@@ -157,12 +209,30 @@ export default function ClientInformation() {
                 Important consents required for safe care:
               </p>
               <ul className="space-y-2 text-gray-700 text-sm mb-6">
-                <li>✓ Personal care consent</li>
-                <li>✓ Privacy and confidentiality</li>
-                <li>✓ Emergency medical consent</li>
-                <li>✓ Information sharing</li>
-                <li>✓ Photography/media consent</li>
-                <li>✓ Background checks authorization</li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Personal care consent</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Privacy and confidentiality</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Emergency medical consent</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Information sharing</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Photography/media consent</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Background checks authorization</span>
+                </li>
               </ul>
               <p className="text-sm text-gray-600">
                 <strong>Status:</strong> Required before support begins
@@ -171,7 +241,9 @@ export default function ClientInformation() {
 
             <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-teal-600">
               <div className="flex items-start gap-4 mb-4">
-                <span className="text-3xl">🔒</span>
+                <div className="bg-blue-100 p-2 rounded-full inline-flex items-center justify-center">
+                  <ShieldCheckIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900">Privacy & Confidentiality</h3>
                 </div>
@@ -180,12 +252,30 @@ export default function ClientInformation() {
                 Our commitment to protecting your information:
               </p>
               <ul className="space-y-2 text-gray-700 text-sm mb-6">
-                <li>✓ Full compliance with Privacy Act</li>
-                <li>✓ Secure record storage</li>
-                <li>✓ Confidential information handling</li>
-                <li>✓ Limited disclosure practices</li>
-                <li>✓ Your right to access records</li>
-                <li>✓ Data protection procedures</li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Full compliance with Privacy Act</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Secure record storage</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Confidential information handling</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Limited disclosure practices</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Your right to access records</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Data protection procedures</span>
+                </li>
               </ul>
               <p className="text-sm text-gray-600">
                 <strong>Status:</strong> Provided with all documentation
@@ -194,7 +284,10 @@ export default function ClientInformation() {
           </div>
 
           <div className="mt-12 bg-teal-50 p-8 rounded-lg">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">📦 Document Packages</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <DocumentTextIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+              Document Packages
+            </h3>
             <p className="text-gray-700 mb-6">
               Since you haven't sent your forms yet, we've noted that they will be provided once completed. Once you send us your Service Agreement, Intake Form, and Consent Forms, we'll create direct links to them here for easy access.
             </p>
@@ -215,25 +308,37 @@ export default function ClientInformation() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">✓ NDIS Self-Managed Participants</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <CheckCircleIcon className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                NDIS Self-Managed Participants
+              </h3>
               <p className="text-gray-700 text-sm">
                 You control your NDIS funding and arrange support services directly. We work with you to provide the support your plan covers.
               </p>
             </div>
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">✓ NDIS Plan-Managed Participants</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <CheckCircleIcon className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                NDIS Plan-Managed Participants
+              </h3>
               <p className="text-gray-700 text-sm">
                 Your plan manager handles arrangements. We coordinate with them while focusing on providing quality support to you.
               </p>
             </div>
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">✓ Private/Self-Funded Clients</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <CheckCircleIcon className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                Private/Self-Funded Clients
+              </h3>
               <p className="text-gray-700 text-sm">
                 You arrange and pay for support directly. Perfect flexibility with no government program requirements.
               </p>
             </div>
             <div className="bg-teal-50 p-6 rounded-lg">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">✓ Aged Care & Home Care Package Clients</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <CheckCircleIcon className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                Aged Care & Home Care Package Clients
+              </h3>
               <p className="text-gray-700 text-sm">
                 We support older Australians with various aged care arrangements and funding options.
               </p>
@@ -252,11 +357,19 @@ export default function ClientInformation() {
             </p>
             <div className="space-y-4">
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">📞 Phone</h3>
-                <p className="text-gray-700">042 4333 532 (24 hours)</p>
+                <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                  <PhoneIcon className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  Phone
+                </h3>
+                <Link href="tel:0424333532">
+                <p className="text-gray-700">0424 333 532 (24 hours)</p>
+                </Link>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">📧 Email</h3>
+                <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                  <EnvelopeIcon className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  Email
+                </h3>
                 <p className="text-gray-700">
                   <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">
                     sovacaresydney.com.au
@@ -264,7 +377,10 @@ export default function ClientInformation() {
                 </p>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">💬 Online Form</h3>
+                <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                  <MapPinIcon className="w-5 h-5 text-blue-600" aria-hidden="true" />
+                  Online Form
+                </h3>
                 <p className="text-gray-700">
                   <Link href="/contact" className="text-teal-600 hover:underline">
                     Use our contact form

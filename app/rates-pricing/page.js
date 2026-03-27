@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CurrencyDollarIcon, DocumentTextIcon, ShieldCheckIcon, CheckCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Rates & Pricing - SOVA Care',
@@ -52,19 +53,43 @@ export default function RatesPricing() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h4 className="text-xl font-bold text-gray-900 mb-4">Additional Costs</h4>
               <ul className="space-y-3 text-gray-700">
-                <li>✓ <strong>Travel Time:</strong> May apply for appointments outside core service areas</li>
-                <li>✓ <strong>Mileage:</strong> Based on distance and industry standards</li>
-                <li>✓ <strong>Specialized Skills:</strong> Higher rates for specialized support needs</li>
-                <li>✓ <strong>After-Hours:</strong> Premium rates for evening/night support</li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span><strong>Travel Time:</strong> May apply for appointments outside core service areas</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span><strong>Mileage:</strong> Based on distance and industry standards</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span><strong>Specialized Skills:</strong> Higher rates for specialized support needs</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span><strong>After-Hours:</strong> Premium rates for evening/night support</span>
+                </li>
               </ul>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h4 className="text-xl font-bold text-gray-900 mb-4">What's Included</h4>
               <ul className="space-y-3 text-gray-700">
-                <li>✓ Fully qualified support workers</li>
-                <li>✓ Comprehensive insurance</li>
-                <li>✓ Professional, person-centered care</li>
-                <li>✓ Flexible scheduling & arrangement</li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Fully qualified support workers</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Comprehensive insurance</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Professional, person-centered care</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Flexible scheduling & arrangement</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -80,19 +105,28 @@ export default function RatesPricing() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="font-bold text-gray-900 mb-3">💰 Competitive Pricing</h3>
+              <h3 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <CurrencyDollarIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Competitive Pricing
+              </h3>
               <p className="text-gray-700 text-sm">
                 Our rates are competitive and aligned with industry standards to maximize your NDIS funding.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="font-bold text-gray-900 mb-3">📋 Transparent Invoicing</h3>
+              <h3 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <DocumentTextIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Transparent Invoicing
+              </h3>
               <p className="text-gray-700 text-sm">
                 Clear, detailed invoices showing exactly what you're paying for and when.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="font-bold text-gray-900 mb-3">🤝 Plan Manager Support</h3>
+              <h3 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
+                <ShieldCheckIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
+                Plan Manager Support
+              </h3>
               <p className="text-gray-700 text-sm">
                 Full coordination with plan managers and self-management for seamless funding arrangements.
               </p>
@@ -138,21 +172,51 @@ export default function RatesPricing() {
             <div className="bg-white p-6 rounded-lg">
               <h3 className="text-lg font-bold text-gray-900 mb-4">Factors That May Increase Cost</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>🔴 Short notice bookings (less than 48 hours)</li>
-                <li>🔴 Weekend, evening, or public holiday support</li>
-                <li>🔴 Specialized skills or expertise needed</li>
-                <li>🔴 Travel outside standard service area</li>
-                <li>🔴 Complex, intensive support needs</li>
+                <li className="flex items-start gap-2">
+                  <ExclamationTriangleIcon className="w-5 h-5 text-red-600 mt-1" aria-hidden="true" />
+                  <span>Short notice bookings (less than 48 hours)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ExclamationTriangleIcon className="w-5 h-5 text-red-600 mt-1" aria-hidden="true" />
+                  <span>Weekend, evening, or public holiday support</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ExclamationTriangleIcon className="w-5 h-5 text-red-600 mt-1" aria-hidden="true" />
+                  <span>Specialized skills or expertise needed</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ExclamationTriangleIcon className="w-5 h-5 text-red-600 mt-1" aria-hidden="true" />
+                  <span>Travel outside standard service area</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ExclamationTriangleIcon className="w-5 h-5 text-red-600 mt-1" aria-hidden="true" />
+                  <span>Complex, intensive support needs</span>
+                </li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg">
               <h3 className="text-lg font-bold text-gray-900 mb-4">Ways to Optimize Cost</h3>
               <ul className="space-y-2 text-gray-700">
-                <li>✅ Plan ahead with advance booking</li>
-                <li>✅ Regular scheduled appointments</li>
-                <li>✅ Clustered visits (multiple clients in same area)</li>
-                <li>✅ Longer booking blocks (e.g., monthly arrangements)</li>
-                <li>✅ Off-peak timing when possible</li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Plan ahead with advance booking</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Regular scheduled appointments</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Clustered visits (multiple clients in same area)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Longer booking blocks (e.g., monthly arrangements)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircleIcon className="w-5 h-5 text-blue-600 mt-1" aria-hidden="true" />
+                  <span>Off-peak timing when possible</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -201,7 +265,7 @@ export default function RatesPricing() {
               Request Pricing Quote
             </Link>
             <Link
-              href="tel:1800000000"
+              href="tel:0424333532"
               className="inline-block border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-teal-700 transition"
             >
               Call Us Now

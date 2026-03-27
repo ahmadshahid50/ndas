@@ -1,5 +1,16 @@
 import Link from 'next/link';
 import ServiceCard from '@/components/ServiceCard';
+import {
+  AcademicCapIcon,
+  ShieldCheckIcon,
+  MapPinIcon,
+  HeartIcon,
+  WrenchScrewdriverIcon,
+  UserGroupIcon,
+  BriefcaseIcon,
+  ClockIcon,
+  SparklesIcon,
+} from '@heroicons/react/24/outline';
 
 export const metadata = {
   title: 'Home - SOVA Care',
@@ -54,7 +65,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ServiceCard
-              icon="📋"
+              icon={AcademicCapIcon}
               title="Qualifications"
               items={[
                 'Cert III in Aged Care Work',
@@ -63,7 +74,7 @@ export default function Home() {
               ]}
             />
             <ServiceCard
-              icon="🛡️"
+              icon={ShieldCheckIcon}
               title="Trust & Safety"
               items={[
                 'Police Check',
@@ -73,7 +84,7 @@ export default function Home() {
               ]}
             />
             <ServiceCard
-              icon="📍"
+              icon={MapPinIcon}
               title="Service Areas"
               items={[
                 'Rockdale, Kogarah, Hurstville',
@@ -94,37 +105,37 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ServiceCard
-              icon="🛁"
+              icon={HeartIcon}
               title="Personal Care"
               description="Help with daily personal care needs"
               items={['Personal hygiene assistance', 'Dressing', 'Toileting assistance', 'Mobility support']}
             />
             <ServiceCard
-              icon="🍽️"
+              icon={WrenchScrewdriverIcon}
               title="Daily Living Support"
               description="Assistance with everyday tasks"
               items={['Meal preparation', 'Medication reminders', 'Household tasks', 'Shopping assistance']}
             />
             <ServiceCard
-              icon="🚗"
+              icon={MapPinIcon}
               title="Community Access"
               description="Support to stay active in the community"
               items={['Social outings', 'Appointments', 'Recreational activities', 'Transport assistance']}
             />
             <ServiceCard
-              icon="🧹"
+              icon={WrenchScrewdriverIcon}
               title="Domestic Assistance"
               description="Help maintaining your home"
               items={['Cleaning', 'Laundry', 'Home organisation', 'Light maintenance']}
             />
             <ServiceCard
-              icon="💬"
+              icon={UserGroupIcon}
               title="Companion Care"
               description="Social and emotional support"
               items={['Conversation & companionship', 'Emotional support', 'Event assistance', 'Memory support']}
             />
             <ServiceCard
-              icon="🏥"
+              icon={BriefcaseIcon}
               title="Aged Care Support"
               description="Specialized support for older Australians"
               items={['Private arrangements', 'Home Care Package support', 'Self-funded options', 'Flexible scheduling']}
