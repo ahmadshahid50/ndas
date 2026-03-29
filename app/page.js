@@ -94,6 +94,12 @@ export default function Home() {
               ]}
             />
           </div>
+          {/* <div className="mt-12 text-center">
+            <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
+              Our extensive experience and comprehensive qualifications ensure you receive the highest quality care and support. Every team member is thoroughly trained and vetted to provide safe, reliable, and compassionate assistance tailored to your individual needs.
+            </p>
+            
+          </div> */}
         </div>
       </section>
 
@@ -158,22 +164,41 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
             How to Get Started
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-            {[
-              { step: 1, title: 'Contact Us', desc: 'Reach out by phone, email or form' },
-              { step: 2, title: 'Discuss Needs', desc: 'Talk about your support requirements' },
-              { step: 3, title: 'Service Agreement', desc: 'Review terms and pricing' },
-              { step: 4, title: 'Paperwork', desc: 'Complete intake and consent forms' },
-              { step: 5, title: 'Support Begins', desc: 'Start services at your schedule' },
-            ].map((item) => (
-              <div key={item.step} className="text-center">
-                <div className="bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4">
-                  {item.step}
-                </div>
-                <h3 className="font-semibold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600">{item.desc}</p>
+          <div className="relative">
+            {/* Connecting chain line */}
+            <div className="hidden md:block absolute top-6 left-1/2 transform -translate-x-1/2 w-full max-w-4xl">
+              <div className="flex justify-between items-center">
+                <div className="w-12 h-0.5 bg-teal-300"></div>
+                <div className="w-12 h-0.5 bg-teal-300"></div>
+                <div className="w-12 h-0.5 bg-teal-300"></div>
+                <div className="w-12 h-0.5 bg-teal-300"></div>
               </div>
-            ))}
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+              {[
+                { step: 1, title: 'Contact Us', desc: 'Reach out by phone, email or form' },
+                { step: 2, title: 'Discuss Needs', desc: 'Talk about your support requirements' },
+                { step: 3, title: 'Service Agreement', desc: 'Review terms and pricing' },
+                { step: 4, title: 'Paperwork', desc: 'Complete intake and consent forms' },
+                { step: 5, title: 'Support Begins', desc: 'Start services at your schedule' },
+              ].map((item, index) => (
+                <div key={item.step} className="text-center relative">
+                  <div className="bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 shadow-lg relative z-10">
+                    {item.step}
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-2">{item.title}</h3>
+                  <p className="text-sm text-gray-600">{item.desc}</p>
+                  {/* Arrow for mobile */}
+                  {index < 4 && (
+                    <div className="md:hidden flex justify-center mt-4">
+                      <svg className="w-6 h-6 text-teal-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
