@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { MapPinIcon, ClockIcon, ShieldCheckIcon } from '@heroicons/react/24/outline';
+import ServiceAreaMap from '../../components/ServiceAreaMap';
 
 export const metadata = {
   title: 'Areas We Service - SOVA Care',
@@ -61,19 +62,11 @@ export default function AreasWeService() {
         </div>
       </section>
 
-      {/* Coverage Map */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Service Coverage</h2>
-          <div className="relative h-96 bg-gray-200 rounded-lg mb-12">
-            <img
-              src=""
-              alt="Service area map"
-              className="w-full h-full object-cover rounded-lg"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-gray-200 bg-opacity-50 rounded-lg">
-              <p className="text-gray-700 font-semibold">Service Area Map Placeholder</p>
-            </div>
+          <div className="mb-12">
+            <ServiceAreaMap />
           </div>
 
           <div className="bg-teal-50 p-8 rounded-lg">

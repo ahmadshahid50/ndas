@@ -49,10 +49,16 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-sm text-gray-400">
               <p>
-                <span className="font-semibold">Phone:</span> 0424 333 532
+                <span className="font-semibold">Phone:</span> 
+                <Link href="tel:0424333532" className="hover:underline ml-1">
+                  0424 333 532
+                </Link>
               </p>
               <p>
-                <span className="font-semibold">Email:</span> sovacaresydney.com.aucom.au
+                <span className="font-semibold">Email:</span>
+                <Link href="mailto:sovacaresydney.com.au " className=" hover:underline ml-1">
+                 sovacaresydney.com.au
+                 </Link>
               </p>
               <p>
                 <span className="font-semibold">Hours:</span> 24 Hours
