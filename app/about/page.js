@@ -5,7 +5,7 @@ export const metadata = {
   title: 'About Us - SOVA Care',
   description: 'Learn about SOVA Care and Seiana\'s 20+ years of experience in the care industry.',
 };
-
+ 
 export default function About() {
   return (
     <div className="min-h-screen bg-white">
@@ -78,6 +78,7 @@ export default function About() {
                 'First Aid Certified',
                 'CPR Certified',
               ]}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={ShieldCheckIcon}
@@ -88,6 +89,7 @@ export default function About() {
                 'Working With Children Check (if applicable)',
                 'References Available',
               ]}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={DocumentTextIcon}
@@ -98,6 +100,7 @@ export default function About() {
                 'Privacy Act Compliant',
                 'Duty of Care Obligations Met',
               ]}
+              moreHref="/areas-we-service"
             />
           </div>
         </div>

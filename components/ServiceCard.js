@@ -1,4 +1,6 @@
-export default function ServiceCard({ icon: Icon, title, description, items }) {
+import Link from 'next/link';
+
+export default function ServiceCard({ icon: Icon, title, description, items, moreHref }) {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
       {Icon && (
@@ -17,6 +19,16 @@ export default function ServiceCard({ icon: Icon, title, description, items }) {
             </li>
           ))}
         </ul>
+      )}
+      {moreHref && (
+        <div className="mt-4">
+          <Link
+            href={moreHref}
+            className="text-sm text-teal-600 font-medium hover:text-teal-700 transition"
+          >
+           And More
+          </Link>
+        </div>
       )}
     </div>
   );

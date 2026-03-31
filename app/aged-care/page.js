@@ -52,6 +52,7 @@ export default function AgedCare() {
                 'Transparent, competitive pricing',
                 'No government requirements',
               ]}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={AcademicCapIcon}
@@ -64,6 +65,7 @@ export default function AgedCare() {
                 'Nationally accredited services',
                 'Quality & Safety Commission approved',
               ]}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={BriefcaseIcon}
@@ -76,6 +78,7 @@ export default function AgedCare() {
                 'Direct payment arrangements',
                 'Personalized service plans',
               ]}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={ShieldCheckIcon}
@@ -88,6 +91,7 @@ export default function AgedCare() {
                 'Flexible billing options',
                 'Comprehensive communication',
               ]}
+              moreHref="/areas-we-service"
             />
           </div>
         </div>

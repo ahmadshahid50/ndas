@@ -71,7 +71,10 @@ export default function Home() {
                 'Cert III in Aged Care Work',
                 'Cert IV in Aged Care Work',
                 'Cert IV in Health and Leisure',
+                'First Aid',
+                'CPR certifications',
               ]}
+              moreHref="/qualifications"
             />
             <ServiceCard
               icon={ShieldCheckIcon}
@@ -81,17 +84,21 @@ export default function Home() {
                 'NDIS Worker Screening',
                 'Comprehensive Insurance',
                 'Fully Compliant',
+                'Monitoring of Staff',
               ]}
+              moreHref="/trust-safety"
             />
             <ServiceCard
               icon={MapPinIcon}
               title="Service Areas"
               items={[
-                'Rockdale, Kogarah, Hurstville',
                 'St George Area',
                 'Sutherland Shire',
-                'Greater Sydney Region',
+                'Southern Sydney',
+                'Inner West',
+                'Eastern Suburbs',
               ]}
+              moreHref="/areas-we-service"
             />
           </div>
           {/* <div className="mt-12 text-center">
@@ -115,37 +122,44 @@ export default function Home() {
               title="Personal Care"
               description="Help with daily personal care needs"
               items={['Personal hygiene assistance', 'Dressing', 'Toileting assistance', 'Mobility support']}
-            />
+              moreHref="/areas-we-service"
+           />
             <ServiceCard
               icon={WrenchScrewdriverIcon}
               title="Daily Living Support"
               description="Assistance with everyday tasks"
               items={['Meal preparation', 'Medication reminders', 'Household tasks', 'Shopping assistance']}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={MapPinIcon}
               title="Community Access"
               description="Support to stay active in the community"
               items={['Social outings', 'Appointments', 'Recreational activities', 'Transport assistance']}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={WrenchScrewdriverIcon}
               title="Domestic Assistance"
               description="Help maintaining your home"
               items={['Cleaning', 'Laundry', 'Home organisation', 'Light maintenance']}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={UserGroupIcon}
               title="Companion Care"
               description="Social and emotional support"
               items={['Conversation & companionship', 'Emotional support', 'Event assistance', 'Memory support']}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={BriefcaseIcon}
               title="Aged Care Support"
               description="Specialized support for older Australians"
               items={['Private arrangements', 'Home Care Package support', 'Self-funded options', 'Flexible scheduling']}
+              moreHref="/areas-we-service"
             />
+            
           </div>
           <div className="text-center mt-12">
             <Link

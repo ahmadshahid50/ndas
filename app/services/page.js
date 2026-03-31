@@ -39,6 +39,7 @@ export default function Services() {
                 'Incontinence care',
                 'Personal hygiene support',
               ]}
+              moreHref="/areas-we-service"
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
@@ -73,6 +74,7 @@ export default function Services() {
                 'Budgeting support',
                 'Organizational assistance',
               ]}
+              moreHref="/areas-we-service"
             />
           </div>
         </div>
@@ -93,6 +95,7 @@ export default function Services() {
                 'Community participation support',
                 'Leisure and hobby support',
               ]}
+              moreHref="/areas-we-service"
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img
@@ -127,6 +130,7 @@ export default function Services() {
                 'Meal preparation areas',
                 'Garden assistance',
               ]}
+              moreHref="/areas-we-service"
             />
           </div>
         </div>
@@ -147,6 +151,7 @@ export default function Services() {
                 'Memory support and reminiscence',
                 'Relationship building',
               ]}
+              moreHref="/areas-we-service"
             />
             <div className="relative h-72 bg-gray-300 rounded-lg">
               <img

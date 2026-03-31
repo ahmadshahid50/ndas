@@ -43,6 +43,7 @@ export default function NDISSupport() {
                 'We invoice you or your representative',
                 'Simple, transparent pricing',
               ]}
+              moreHref="/areas-we-service"
             />
             <ServiceCard
               icon={DocumentTextIcon}
@@ -55,6 +56,7 @@ export default function NDISSupport() {
                 'Coordination with your plan',
                 'Seamless communication',
               ]}
+              moreHref="/areas-we-service"
             />
           </div>
         </div>
