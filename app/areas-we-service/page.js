@@ -10,26 +10,6 @@ export const metadata = {
 export default function AreasWeService() {
   const areas = [
     {
-      name: 'Eastern Suburbs',
-      description: 'Our home base, where we provide comprehensive support services.',
-      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
-    },
-    {
-      name: 'Northern Beaches',
-      description: 'Our home base, where we provide comprehensive support services.',
-      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
-    },
-    {
-      name: 'Rockdale',
-      description: 'Our home base, where we provide comprehensive support services.',
-      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
-    },
-    {
-      name: 'Inner South Sydney',
-      description: 'Supporting clients across the inner south region.',
-      suburbs: ['Kingsgrove', 'Beverly Hills', 'Hurstville', 'Kirrawee'],
-    },
-    {
       name: 'St George Area',
       description: 'Comprehensive support across the wider St George region.',
       suburbs: ['Penshurst', 'Oatley', 'Mortdale', 'Peakhurst'],
@@ -45,9 +25,29 @@ export default function AreasWeService() {
       suburbs: ['Banksia', 'Ramsgate', 'Gymea', 'Miranda'],
     },
     {
+      name: 'Inner Western',
+      description: 'Supporting clients across the inner west region.',
+      suburbs: ['Kingsgrove', 'Beverly Hills', 'Hurstville', 'Kirrawee'],
+    },
+    {
+      name: 'Eastern Suburbs',
+      description: 'Our home base, where we provide comprehensive support services.',
+      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
+    },
+    {
+      name: 'Northern Beaches',
+      description: 'Our home base, where we provide comprehensive support services.',
+      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
+    },
+    {
       name: 'Greater Sydney',
       description: 'We service additional areas across Greater Sydney - contact us to confirm.',
       suburbs: ['And many more...'],
+    },
+    {
+      name: 'Rockdale',
+      description: 'Our home base, where we provide comprehensive support services.',
+      suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
     },
     
   ];
@@ -75,7 +75,7 @@ export default function AreasWeService() {
               Based in Rockdale, NSW 2216, SOVA Care provides comprehensive support services across the St George area, Sutherland Shire and Greater Sydney region. This includes all suburbs within these regions, with dedicated coverage for our established service areas.
             </p>
             <p className="text-gray-700">
-              <strong>Not sure if your location is in our service area?</strong> Please contact us directly at <Link href="tel:042 4333 532" className="text-teal-600 hover:underline">0424 333 532</Link> or <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">sovacaresydney.com.au</Link>, and we'll confirm availability.
+              <strong>Not sure if your location is in our service area?</strong> Please contact us directly at <Link href="tel:0466 983 171" className="text-teal-600 hover:underline">0466 983 171</Link> or <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">sovacaresydney.com.au</Link>, and we'll confirm availability.
             </p>
           </div>
         </div>

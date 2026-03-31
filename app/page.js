@@ -121,7 +121,7 @@ export default function Home() {
               icon={HeartIcon}
               title="Personal Care"
               description="Help with daily personal care needs"
-              items={['Personal hygiene assistance', 'Dressing', 'Toileting assistance', 'Mobility support']}
+              items={['Personal hygiene assistance', 'Assisted daily living', 'Toileting assistance', 'Mobility support']}
               moreHref="/areas-we-service"
            />
             <ServiceCard

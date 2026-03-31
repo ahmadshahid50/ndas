@@ -50,7 +50,7 @@ export default function Navbar() {
           {/* Desktop Button */}
           <div className="hidden md:flex items-center space-x-4">
             <Link
-              href="/contact"
+              href="/contact#booking"
               className="bg-white text-teal-600 border border-teal-600 px-6 py-2 rounded-md hover:bg-teal-50 transition font-semibold"
             >
               Start your enquiry

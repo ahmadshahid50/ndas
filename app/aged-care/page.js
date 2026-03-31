@@ -105,7 +105,7 @@ export default function AgedCare() {
             <ServiceCard
               icon={HeartIcon}
               title="Personal Care"
-              items={['Showering & dressing', 'Grooming', 'Toileting assistance', 'Mobility support']}
+              items={['Personal hygiene assistance', 'Assisted daily living', 'Toileting assistance', 'Mobility support']}
             />
             <ServiceCard
               icon={WrenchScrewdriverIcon}

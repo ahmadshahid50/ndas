@@ -28,7 +28,7 @@ export default function Contact() {
                 <PhoneIcon className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 Phone
               </h3>
-              <p className="text-gray-700 mb-2">0424 333 532</p>
+              <p className="text-gray-700 mb-2">0466 983 171</p>
               <p className="text-sm text-gray-600">Available 24 hours</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -56,7 +56,7 @@ export default function Contact() {
               We provide services across the Greater Sydney region, with particular focus on:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['Eastern Suburbs','Northern Beaches','Rockdale', 'Kogarah', 'Hurstville', 'Carss Park', 'Kingsgrove', 'Beverly Hills', 'Sutherland', 'Cronulla'].map((area) => (
+              {['St George Area','Sutherland Shire','Southern Sydney', 'Inner west', 'Eastern Suburbs', 'Northern Beaches', 'Greater Sydney' ].map((area) => (
                 <div key={area} className="bg-white p-4 rounded-md">
                   <p className="text-gray-700 font-semibold text-center">{area}</p>
                 </div>
@@ -85,7 +85,7 @@ export default function Contact() {
       <section className="py-16" id="booking">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Book Support</h2>
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Start your Enquiry</h2>
             <p className="text-center text-gray-700 mb-8">
               Ready to book support? Fill out the form below and we'll get in touch to confirm your booking.
             </p>

@@ -33,7 +33,7 @@ export default function Services() {
             <ServiceCard
               title="What We Provide"
               items={[
-                'Dressing support',
+                'Assisted daily living',
                 'Toileting assistance',
                 'Mobility support and transfers',
                 'Incontinence care',

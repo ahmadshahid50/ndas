@@ -362,7 +362,7 @@ export default function ClientInformation() {
                   Phone
                 </h3>
                 <Link href="tel:0424333532">
-                <p className="text-teal-600 hover:underline">0424 333 532 (24 hours)</p>
+                <p className="text-teal-600 hover:underline">0466 983 171 (24 hours)</p>
                 </Link>
               </div>
               <div>

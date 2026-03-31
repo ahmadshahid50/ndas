@@ -51,7 +51,7 @@ export default function Footer() {
               <p>
                 <span className="font-semibold">Phone:</span> 
                 <Link href="tel:0424333532" className="hover:underline ml-1">
-                  0424 333 532
+                  0466 983 171
                 </Link>
               </p>
               <p>
