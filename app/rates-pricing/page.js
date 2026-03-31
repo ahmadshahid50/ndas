@@ -265,7 +265,7 @@ export default function RatesPricing() {
               Request Pricing Quote
             </Link>
             <Link
-              href="tel:0424333532"
+              href="tel:0466983171"
               className="inline-block border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-teal-700 transition"
             >
               Call Us Now

@@ -140,10 +140,10 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-xl font-bold text-red-900 mb-2">Need Emergency Support?</h3>
           <p className="text-red-800 mb-4">
-            For urgent medical emergencies, please call 0424 333 532 (emergency services) immediately or visit your nearest hospital.
+            For urgent medical emergencies, please call 0466 983 171 (emergency services) immediately or visit your nearest hospital.
           </p>
           <p className="text-red-800">
-            For non-emergency urgent support, contact us at 0424 333 532 (24 hours available) or go to the nearest hospital emergency department.
+            For non-emergency urgent support, contact us at 0466 983 171 (24 hours available) or go to the nearest hospital emergency department.
           </p>
         </div>
       </section>
