@@ -21,37 +21,34 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="text-center md:text-left">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Working with you, towards your goals. That's our focus.
-              </h1>
-              <p className="text-xl mb-8 text-white max-w-3xl mx-auto md:mx-0">
-                SOVA Care provides compassionate, respectful and reliable support that helps people maintain their independence and quality of life.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <Link
-                  href="/contact#booking"
-                  className="bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center shadow-lg"
-                >
-                  Book Support
-                </Link>
-                <Link
-                  href="/contact"
-                  className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-teal-600 transition text-center shadow-lg"
-                >
-                  Contact Us
-                </Link>
-              </div>
-            </div>
-            <div className="flex justify-center md:justify-end">
-              <img
-                src="/images/hero.jpg"
-                alt="SOVA Care hero image"
-                className="w-full max-w-full rounded-xl shadow-2xl"
-              />
+      <section className="relative h-[560px] md:h-[640px] lg:h-[720px]">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/images/hero2.jpg')" }}
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-black/55" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-full flex items-center">
+          <div className="text-center md:text-left text-white lg:max-w-2xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              Working with you, towards your goals. That&rsquo;s our focus.
+            </h1>
+            <p className="text-xl mb-8 max-w-3xl mx-auto md:mx-0">
+              SOVA Care provides compassionate, respectful and reliable support that helps people maintain their independence and quality of life.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <Link
+                href="/contact#booking"
+                className="bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center shadow-lg"
+              >
+                Book Support
+              </Link>
+              <Link
+                href="/contact"
+                className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-teal-600 transition text-center shadow-lg"
+              >
+                Contact Us
+              </Link>
             </div>
           </div>
         </div>

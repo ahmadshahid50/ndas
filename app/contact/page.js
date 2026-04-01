@@ -56,7 +56,7 @@ export default function Contact() {
               We provide services across the Greater Sydney region, with particular focus on:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['St George Area','Sutherland Shire','Southern Sydney', 'Inner west', 'Eastern Suburbs', 'Northern Beaches', 'Greater Sydney' ].map((area) => (
+              {['St George Area','Sutherland Shire','Southern Sydney', 'Inner west', 'Eastern Suburbs', 'Northern Beaches', 'Greater Sydney','Rockdale','Plus More' ].map((area) => (
                 <div key={area} className="bg-white p-4 rounded-md">
                   <p className="text-gray-700 font-semibold text-center">{area}</p>
                 </div>

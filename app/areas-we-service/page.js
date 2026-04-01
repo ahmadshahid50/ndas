@@ -49,16 +49,23 @@ export default function AreasWeService() {
       description: 'Our home base, where we provide comprehensive support services.',
       suburbs: ['Rockdale', 'Kogarah', 'Kogarah Bay', 'Carss Park'],
     },
+    {
+      name: 'Plus More',
+      description: 'We also serve additional areas across Greater Sydney - contact us to confirm.',
+      suburbs: ['And many more...'],
+    }
     
   ];
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
+      <section className="py-20 bg-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold">Areas We Service</h1>
-          <p className="text-xl mt-4 text-teal-100">Supporting communities across Greater Sydney</p>
+          <div className="max-w-2xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Areas We Service</h1>
+            <p className="text-xl md:text-2xl mt-4 text-teal-100">Supporting communities across Greater Sydney</p>
+          </div>
         </div>
       </section>
 

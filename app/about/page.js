@@ -52,7 +52,7 @@ export default function About() {
               Based in Rockdale, SOVA Care provides support across the St George area, Sutherland Shire and greater Sydney region, helping people remain comfortable, independent and supported in their everyday lives.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['St George Area','Sutherland Shire','Southern Sydney', 'Inner west', 'Eastern Suburbs', 'Northern Beaches', 'Greater Sydney', 'Rockdale','Kogarah','Hurstville' ].map((area) => (
+              {['St George Area','Sutherland Shire','Southern Sydney', 'Inner west', 'Eastern Suburbs', 'Northern Beaches', 'Greater Sydney', 'Rockdale','Plus More' ].map((area) => (
                 <div key={area} className="bg-white p-4 rounded-md text-center">
                   <p className="text-gray-700 font-semibold">{area}</p>
                 </div>
