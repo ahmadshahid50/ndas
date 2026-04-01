@@ -52,7 +52,9 @@ export default function AgedCare() {
                 'Transparent, competitive pricing',
                 'No government requirements',
               ]}
-              moreHref="/areas-we-service"
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={AcademicCapIcon}
@@ -65,7 +67,9 @@ export default function AgedCare() {
                 'Nationally accredited services',
                 'Quality & Safety Commission approved',
               ]}
-              moreHref="/areas-we-service"
+             newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={BriefcaseIcon}
@@ -78,7 +82,9 @@ export default function AgedCare() {
                 'Direct payment arrangements',
                 'Personalized service plans',
               ]}
-              moreHref="/areas-we-service"
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={ShieldCheckIcon}
@@ -91,7 +97,9 @@ export default function AgedCare() {
                 'Flexible billing options',
                 'Comprehensive communication',
               ]}
-              moreHref="/areas-we-service"
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
           </div>
         </div>
@@ -106,31 +114,49 @@ export default function AgedCare() {
               icon={HeartIcon}
               title="Personal Care"
               items={['Personal hygiene assistance', 'Assisted daily living', 'Toileting assistance', 'Mobility support']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={WrenchScrewdriverIcon}
               title="Daily Living Tasks"
               items={['Meal preparation', 'Shopping', 'Household cleaning', 'Medication reminders']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={MapPinIcon}
               title="Community Access"
               items={['Appointments', 'Social outings', 'Transport', 'Recreation']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={UserGroupIcon}
               title="Companionship"
               items={['Social engagement', 'Conversation', 'Event attendance', 'Emotional support']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={HeartIcon}
               title="Health Support"
               items={['Recovery assistance', 'Post-hospital support', 'Health monitoring', 'Medical appointments']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={WrenchScrewdriverIcon}
               title="Home Maintenance"
               items={['Light cleaning', 'Laundry', 'Home organization', 'Yard help']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
           </div>
         </div>

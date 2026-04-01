@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function ServiceCard({ icon: Icon, title, description, items, moreHref }) {
+export default function ServiceCard({ icon: Icon, title, description, items, moreHref, newitems }) {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
       {Icon && (
@@ -20,7 +20,27 @@ export default function ServiceCard({ icon: Icon, title, description, items, mor
           ))}
         </ul>
       )}
-      {moreHref && (
+
+      {newitems && (
+        <ul className="space-y-2 mt-2">
+          {newitems.map((item, index) => (
+            <li key={index} className="text-gray-700 flex items-start ">
+              <span className="text-teal-600 mr-2 font-bold">•</span>
+              {typeof item === 'object' && item.href ? (
+                <Link href={item.href} className="text-gray-700 hover:text-teal-700 hover:underline transition">
+                  {item.text}
+                </Link>
+              ) : (
+                <span>{typeof item === 'string' ? item : item.text}</span>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
+
+
+      {/* {moreHref && (
+        
         <div className="mt-4">
           <Link
             href={moreHref}
@@ -29,7 +49,7 @@ export default function ServiceCard({ icon: Icon, title, description, items, mor
            And More
           </Link>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

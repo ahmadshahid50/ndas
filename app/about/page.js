@@ -78,7 +78,9 @@ export default function About() {
                 'First Aid Certified',
                 'CPR Certified',
               ]}
-              moreHref="/areas-we-service"
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={ShieldCheckIcon}
@@ -89,7 +91,9 @@ export default function About() {
                 'Working With Children Check (if applicable)',
                 'References Available',
               ]}
-              moreHref="/areas-we-service"
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={DocumentTextIcon}
@@ -100,7 +104,9 @@ export default function About() {
                 'Privacy Act Compliant',
                 'Duty of Care Obligations Met',
               ]}
-              moreHref="/areas-we-service"
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
           </div>
         </div>

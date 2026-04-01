@@ -43,7 +43,9 @@ export default function NDISSupport() {
                 'We invoice you or your representative',
                 'Simple, transparent pricing',
               ]}
-              moreHref="/areas-we-service"
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               icon={DocumentTextIcon}
@@ -56,7 +58,9 @@ export default function NDISSupport() {
                 'Coordination with your plan',
                 'Seamless communication',
               ]}
-              moreHref="/areas-we-service"
+             newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
           </div>
         </div>
@@ -121,26 +125,44 @@ export default function NDISSupport() {
             <ServiceCard
               title="Core Supports"
               items={['Personal care', 'Daily living support', 'Mobility assistance']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               title="Community Participation"
               items={['Community access', 'Social activities', 'Transport support']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               title="Psychosocial Support"
               items={['Mental health support', 'Counseling coordination', 'Emotional support']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               title="Assistance Provided"
               items={['Goal planning', 'Appointments', 'Community outings']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               title="Skill Development"
               items={['Life skills training', 'Goal achievement', 'Independence building']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
             <ServiceCard
               title="Specialist Support"
               items={['Customized assistance', 'Complex needs support', 'Coordinated care']}
+              newitems={[
+                {text: 'And More', href: '#'},
+              ]}
             />
           </div>
         </div>
