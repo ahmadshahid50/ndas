@@ -110,10 +110,10 @@ export default function Navbar() {
 
           {isMoreDropdownOpen && (
             <div className="pl-4">
-              <Link href="/areas-we-service" className="block px-4 py-2 text-sm text-gray-700">Areas We Service</Link>
-              <Link href="/rates-pricing" className="block px-4 py-2 text-sm text-gray-700">Rates & Pricing</Link>
-              <Link href="/client-information" className="block px-4 py-2 text-sm text-gray-700">Client Information</Link>
-              <Link href="/resources" className="block px-4 py-2 text-sm text-gray-700">Resources</Link>
+              <Link href="/areas-we-service" className="block px-4 py-2 text-sm text-gray-700" onClick={() => setIsMenuOpen(false)}>Areas We Service</Link>
+              <Link href="/rates-pricing" className="block px-4 py-2 text-sm text-gray-700" onClick={() => setIsMenuOpen(false)}>Rates & Pricing</Link>
+              <Link href="/client-information" className="block px-4 py-2 text-sm text-gray-700" onClick={() => setIsMenuOpen(false)}>Client Information</Link>
+              <Link href="/resources" className="block px-4 py-2 text-sm text-gray-700" onClick={() => setIsMenuOpen(false)}>Resources</Link>
             </div>
           )}
 
