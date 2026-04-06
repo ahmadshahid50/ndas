@@ -41,7 +41,7 @@ export default function Home() {
                 href="/contact#booking"
                 className="bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center shadow-lg"
               >
-                Book Support
+                Enquire Now
               </Link>
               <Link
                 href="/contact"
@@ -243,7 +243,7 @@ export default function Home() {
             href="/contact#booking"
             className="inline-block bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition"
           >
-            Book Support Today
+            Enquire Now
           </Link>
         </div>
       </section>

@@ -22,7 +22,7 @@ export default function NDISSupport() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">How We Work with NDIS</h2>
           <p className="text-lg text-gray-700 mb-8">
-            SOVA Care is registered and experienced in supporting both self-managed and plan-managed NDIS participants. We understand the flexibility and structure that NDIS offers and tailor our services to align with your support needs and funding arrangements.
+            SOVA Care provides experienced support for self-managed and plan-managed NDIS participants. We tailor our services to align with your support needs and funding arrangements.
           </p>
         </div>
       </section>
