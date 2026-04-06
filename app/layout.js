@@ -3,6 +3,7 @@ import "./globals.css";
 import TopNav from "@/components/TopNav";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CustomCursor from "@/components/Cursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <TopNav />
         <Navbar />
         <main className="flex-grow">{children}</main>
+        <CustomCursor />
         <Footer />
       </body>
     </html>

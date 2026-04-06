@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import ServiceCard from '@/components/ServiceCard';
+import CustomCursor from "@/components/Cursor";
 import {
   AcademicCapIcon,
   ShieldCheckIcon,
@@ -19,6 +20,8 @@ export const metadata = {
 
 export default function Home() {
   return (
+    <>
+    <CustomCursor />
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-[560px] md:h-[640px] lg:h-[720px]">
@@ -248,5 +251,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+    </>
   );
 }
