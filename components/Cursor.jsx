@@ -1,13 +1,29 @@
 "use client";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 
 export default function CustomCursor() {
   const cursorRef = useRef(null);
   const cursorBorderRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(true);
 
   useEffect(() => {
-    if (window.matchMedia("(max-width: 768px)").matches) return;
+    // Check if mobile/tablet on mount
+    const mediaQuery = window.matchMedia("(max-width: 1024px)");
+    setIsMobile(mediaQuery.matches);
+
+    // Listen for changes
+    const handleMediaChange = (e) => {
+      setIsMobile(e.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaChange);
+
+    return () => mediaQuery.removeEventListener("change", handleMediaChange);
+  }, []);
+
+  useEffect(() => {
+    if (isMobile) return;
 
     const cursor = cursorRef.current;
     const cursorBorder = cursorBorderRef.current;
@@ -43,9 +59,9 @@ export default function CustomCursor() {
       window.removeEventListener("mousedown", handleMouseDown);
       window.removeEventListener("mouseup", handleMouseUp);
     };
-  }, []);
+  }, [isMobile]);
 
-  if (typeof window !== "undefined" && window.matchMedia("(max-width: 768px)").matches) {
+  if (isMobile) {
     return null;
   }
 
