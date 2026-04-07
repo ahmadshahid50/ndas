@@ -23,10 +23,10 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-1">
             <Link href="/" className="px-3 py-2 text-gray-700 hover:text-teal-600  transition">Home</Link>
             <Link href="/about" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">About</Link>
-            <Link href="/services" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">Services</Link>
-            <Link href="/cleaning-property-support" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">Cleaning & Property Support</Link>
             <Link href="/ndis-support" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">NDIS Support</Link>
             <Link href="/aged-care" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">Aged Care</Link>
+            <Link href="/cleaning-property-support" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">Cleaning & Property Support</Link>
+            <Link href="/services" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">Services</Link>
 
             {/* More Dropdown */}
             <div className="relative group">
@@ -52,7 +52,7 @@ export default function Navbar() {
               href="/contact#booking"
               className="bg-white text-teal-600 border border-teal-600 px-2 py-2 rounded-md hover:bg-teal-50 transition font-semibold"
             >
-              Start your enquiry
+              Enquire Now
             </Link>
             <Link
               href="/contact"
@@ -87,10 +87,10 @@ export default function Navbar() {
         <div className="md:hidden absolute left-0 w-full bg-white border-t z-[100] shadow-md">
           <Link href="/" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>Home</Link>
           <Link href="/about" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>About</Link>
-          <Link href="/services" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>Services Overview</Link>
-          <Link href="/cleaning-property-support" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>Cleaning & Property Support</Link>
           <Link href="/ndis-support" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>NDIS Support</Link>
           <Link href="/aged-care" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>Aged Care</Link>
+          <Link href="/cleaning-property-support" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>Cleaning & Property Support</Link>
+          <Link href="/services" className="block px-4 py-2 text-gray-700 hover:text-teal-600" onClick={() => setIsMenuOpen(false)}>Services</Link>
 
           {/* Mobile More */}
           <button

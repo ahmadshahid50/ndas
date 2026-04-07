@@ -403,7 +403,7 @@ export default function ClientInformation() {
             href="/contact#booking"
             className="inline-block bg-teal-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-teal-700 transition"
           >
-            Start Your Enquiry
+            Enquire Now
           </Link>
         </div>
       </section>

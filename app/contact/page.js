@@ -85,7 +85,7 @@ export default function Contact() {
       <section className="py-16" id="booking">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Start your Enquiry</h2>
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Enquire Now</h2>
             <p className="text-center text-gray-700 mb-8">
               Ready to book support? Fill out the form below and we'll get in touch to confirm your booking.
             </p>
