@@ -1,4 +1,3 @@
-import ContactForm from '@/components/ContactForm';
 import BookingForm from '@/components/BookingForm';
 import Link from 'next/link';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
@@ -65,18 +64,6 @@ export default function Contact() {
             <p className="text-gray-600 text-sm mt-6">
               <strong>Note:</strong> If you're unsure whether your location is within our service area, please contact us directly.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Form Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Send us a Message</h2>
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <ContactForm />
-            </div>
           </div>
         </div>
       </section>

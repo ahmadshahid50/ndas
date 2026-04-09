@@ -5,6 +5,8 @@ import { useState, useTransition } from 'react';
 export default function BookingForm() {
   const [formData, setFormData] = useState({
     name: '',
+    email: '',
+    phone: '',
     participantName: '',
     ndisType: '',
     servicesNeeded: [],
@@ -56,6 +58,8 @@ export default function BookingForm() {
 
     if (
       !formData.name ||
+      !formData.email ||
+      !formData.phone ||
       !formData.participantName ||
       !formData.ndisType ||
       formData.servicesNeeded.length === 0 ||
@@ -81,6 +85,8 @@ export default function BookingForm() {
         setSubmitted(true);
         setFormData({
           name: '',
+          email: '',
+          phone: '',
           participantName: '',
           ndisType: '',
           servicesNeeded: [],
@@ -119,6 +125,36 @@ export default function BookingForm() {
           onChange={handleChange}
           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
           placeholder="Your full Name"
+          required
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">
+          Email *
+        </label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
+          placeholder="your.email@example.com"
+          required
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">
+          Phone *
+        </label>
+        <input
+          type="tel"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-600 text-gray-500"
+          placeholder="0290 000 000"
           required
         />
       </div>
@@ -220,7 +256,7 @@ export default function BookingForm() {
         disabled={isPending}
         className="w-full bg-teal-600 text-white py-2 rounded-md hover:bg-teal-700 transition disabled:opacity-50 disabled:cursor-not-allowed font-semibold"
       >
-        {isPending ? 'Submitting...' : 'Book Support'}
+        {isPending ? 'Submitting...' : 'Enquire Now'}
       </button>
     </form>
   );

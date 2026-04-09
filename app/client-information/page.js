@@ -292,7 +292,7 @@ export default function ClientInformation() {
               Since you haven't sent your forms yet, we've noted that they will be provided once completed. Once you send us your Service Agreement, Intake Form, and Consent Forms, we'll create direct links to them here for easy access.
             </p>
             <p className="text-gray-700 p-4 bg-white rounded border-l-4 border-teal-600">
-              <strong>Next Step:</strong> Please send your completed forms to <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">sovacaresydney.com.au</Link>, and we'll add them to this page with download links for your reference.
+              <strong>Next Step:</strong> Please send your completed forms to <Link href="mailto:sovacaresydney@gmail.com" className="text-teal-600 hover:underline">sovacaresydney@gmail.com</Link>, and we'll add them to this page with download links for your reference.
             </p>
           </div>
         </div>
@@ -371,8 +371,8 @@ export default function ClientInformation() {
                   Email
                 </h3>
                 <p className="text-gray-700">
-                  <Link href="mailto:sovacaresydney.com.au" className="text-teal-600 hover:underline">
-                    sovacaresydney.com.au
+                  <Link href="mailto:sovacaresydney@gmail.com" className="text-teal-600 hover:underline">
+                    sovacaresydney@gmail.com
                   </Link>
                 </p>
               </div>

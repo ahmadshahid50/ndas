@@ -56,8 +56,8 @@ export default function Footer() {
               </p>
               <p>
                 <span className="font-semibold">Email:</span>
-                <Link href="mailto:sovacaresydney.com.au " className=" hover:underline ml-1">
-                 sovacaresydney.com.au
+                <Link href="mailto:sovacaresydney@gmail.com " className=" hover:underline ml-1">
+                 sovacaresydney@gmail.com
                  </Link>
               </p>
               <p>
