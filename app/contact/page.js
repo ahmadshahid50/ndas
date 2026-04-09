@@ -49,7 +49,7 @@ export default function Contact() {
           </div>
 
           {/* Service Areas */}
-          <div className="bg-teal-50 p-8 rounded-lg mb-16">
+          <div className="bg-teal-50 p-8 rounded-lg ">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Areas We Service</h3>
             <p className="text-gray-700 mb-6">
               We provide services across the Greater Sydney region, with particular focus on:
@@ -78,7 +78,11 @@ export default function Contact() {
             </p>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <BookingForm />
+              <p className="text-center text-red-700 mt-8">
+              Note: This contact form is not monitored for emergencies. In an emergency call 000.
+            </p>
             </div>
+            
           </div>
         </div>
       </section>
@@ -125,12 +129,12 @@ export default function Contact() {
       {/* Emergency Support */}
       <section className="bg-red-50 border-l-4 border-red-600 p-8 my-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-xl font-bold text-red-900 mb-2">Need Emergency Support?</h3>
+          <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>
           <p className="text-red-800 mb-4">
             For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
           </p>
           <p className="text-red-800">
-            For non-emergency urgent support, contact us at 0466 983 171 (24 hours available) or go to the nearest hospital emergency department.
+            For non-emergency support or general enquiries, please contact Sova Care at 0466 983 171. Our team is here to assist you.
           </p>
         </div>
       </section>

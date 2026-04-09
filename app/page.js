@@ -34,10 +34,9 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-full flex items-center">
           <div className="text-center md:text-left text-white lg:max-w-2xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Working with you, towards your goals. That&rsquo;s our focus.
-            </h1>
+              Sova Care Disability & Aged Care Services            </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto md:mx-0">
-              SOVA Care provides compassionate, respectful and reliable support that helps people maintain their independence and quality of life.
+              SOVA Care provides personalised support services designed to help individuals maintain independence, safety, and quality of life.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link
@@ -60,9 +59,11 @@ export default function Home() {
       {/* Expertise Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            20+ Years of Experience
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">
+            20+ Years of Experience in Care
           </h2>
+          <p className='text-md  text-center text-gray-900 mb-12'>
+Founder has more than 20 year’s experience in aged care and disability support.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ServiceCard
               icon={AcademicCapIcon}
@@ -84,9 +85,9 @@ export default function Home() {
               items={[
                 'Police Check',
                 'NDIS Worker Screening',
-                'Comprehensive Insurance',
-                'Fully Compliant',
-                'Monitoring of Staff',
+                'Appropriate business and public liability insurance held',
+                'Committed to complying with applicable NDIS and aged care requirements',
+                'All staff are supervised and subject to internal quality and safety procedures',
               ]}
               newitems={[
                 {text: 'And More', href: '#'},
@@ -210,7 +211,7 @@ export default function Home() {
               {[
                 { step: 1, title: 'Contact Us', desc: 'Reach out by phone, email or form' },
                 { step: 2, title: 'Discuss Needs', desc: 'Talk about your support requirements' },
-                { step: 3, title: 'Service Agreement', desc: 'Review terms and pricing' },
+                { step: 3, title: 'Service Agreement', desc: 'Review service agreement, pricing, suitability and availability.' },
                 { step: 4, title: 'Paperwork', desc: 'Complete intake and consent forms' },
                 { step: 5, title: 'Support Begins', desc: 'Start services at your schedule' },
               ].map((item, index) => (
@@ -248,6 +249,18 @@ export default function Home() {
           >
             Enquire Now
           </Link>
+        </div>
+      </section>
+
+      <section className="bg-red-50 border-l-4 border-red-600 p-8 ">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>
+          <p className="text-red-800 mb-4">
+            For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
+          </p>
+          <p className="text-red-800">
+            For non-emergency support or general enquiries, please contact Sova Care at 0466 983 171. Our team is here to assist you.
+          </p>
         </div>
       </section>
     </div>

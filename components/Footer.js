@@ -61,7 +61,7 @@ export default function Footer() {
                  </Link>
               </p>
               <p>
-                <span className="font-semibold">Hours:</span> 24 Hours
+                <span className="font-semibold">Hours:</span> Enquiries accepted 24/7. Service hours by arrangement.
               </p>
               <p className="text-xs mt-4">
                 Local Sydney Support<br />
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="text-center text-sm text-gray-500">
           <p>
-            &copy; {currentYear} SOVA Care. All rights reserved. 
+           Contact us today for a private discussion about your support needs. &copy; {currentYear} SOVA Care. All rights reserved. 
           </p>
         </div>
       </div>

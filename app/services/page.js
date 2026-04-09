@@ -197,6 +197,18 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      <section className="bg-red-50 border-l-4 border-red-600 p-8 ">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>
+          <p className="text-red-800 mb-4">
+            For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
+          </p>
+          <p className="text-red-800">
+            For non-emergency support or general enquiries, please contact Sova Care at 0466 983 171. Our team is here to assist you.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

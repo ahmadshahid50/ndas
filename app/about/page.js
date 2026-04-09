@@ -117,7 +117,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-8">
-            To provide compassionate, respectful and reliable support services that empower individuals to maintain their independence, achieve their goals, and enjoy a high quality of life.
+            To provide compassionate, respectful and reliable support services that help individuals maintain their independence and work toward their goals and wellbeing.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -130,9 +130,21 @@ export default function About() {
             </div>
             <div>
               <h3 className="text-2xl font-bold text-teal-600 mb-4">Reliable</h3>
-              <p className="text-gray-600">We are punctual, professional and consistent in delivering quality care.</p>
+              <p className="text-gray-600">We aim to provide punctual, professional and reliable support tailored to each person’s needs.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-red-50 border-l-4 border-red-600 p-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>
+          <p className="text-red-800 mb-4">
+            For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
+          </p>
+          <p className="text-red-800">
+            For non-emergency support or general enquiries, please contact Sova Care at 0466 983 171. Our team is here to assist you.
+          </p>
         </div>
       </section>
     </div>
