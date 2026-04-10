@@ -24,8 +24,9 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                SOVA Care was founded with the goal of providing compassionate, respectful and reliable support that helps people maintain their independence and quality of life.
+                SOVA Care was founded with a clear purpose, to provide compassionate, respectful, and reliable support that helps people maintain their independence and quality of life. Every aspect of our service is designed to deliver personalised support that is consistent, flexible, and aligned with individual needs.
               </p>
+              
               <p className="text-gray-700 mb-4 leading-relaxed">
                 Seiana brings over 20 years of experience in the care sector, with most of that time spent working in the aged care industry supporting individuals with personal care, daily living assistance and community participation.
               </p>
@@ -136,14 +137,14 @@ export default function About() {
         </div>
       </section>
 
-      <section className="bg-red-50 border-l-4 border-red-600 p-8">
+      <section className="bg-red-50 border-l-4 border-red-600 p-8 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>
           <p className="text-red-800 mb-4">
             For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
           </p>
           <p className="text-red-800">
-            For non-emergency support or general enquiries, please contact Sova Care at 0466 983 171. Our team is here to assist you.
+            For general enquiries about SOVA Care services, please contact us on 0466 983 171 or via our contact form. Service enquiries are monitored during normal business arrangements and are not an emergency service.
           </p>
         </div>
       </section>

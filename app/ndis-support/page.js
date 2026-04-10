@@ -214,7 +214,7 @@ export default function NDISSupport() {
             For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
           </p>
           <p className="text-red-800">
-            For non-emergency support or general enquiries, please contact Sova Care at 0466 983 171. Our team is here to assist you.
+            For general enquiries about SOVA Care services, please contact us on 0466 983 171 or via our contact form. Service enquiries are monitored during normal business arrangements and are not an emergency service.
           </p>
         </div>
       </section>
