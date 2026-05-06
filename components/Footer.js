@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Company Info */}
+          
           <div className='items-left'>
             <Link href="/">
               <img src='/images/logo.png' className='lg:h-30 lg:w-30 sm:h-10 sm:w-10 h-35 w-auto' alt="SOVA Care logo" />
@@ -17,7 +17,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
@@ -44,7 +43,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-sm text-gray-400">
@@ -79,7 +77,6 @@ export default function Footer() {
           </p>
         </div> */}
 
-        {/* Copyright */}
         <div className="text-center text-sm text-gray-500">
           <p>
            Contact us today for a private discussion about your support needs. &copy; {currentYear} SOVA Care. All rights reserved. 

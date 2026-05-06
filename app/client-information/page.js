@@ -18,7 +18,7 @@ export const metadata = {
 export default function ClientInformation() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Client Information</h1>
@@ -26,7 +26,6 @@ export default function ClientInformation() {
         </div>
       </section>
 
-      {/* How to Get Started */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">How to Get Started with SOVA Care</h2>
@@ -101,7 +100,6 @@ export default function ClientInformation() {
         </div>
       </section>
 
-      {/* Client Documents */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Important Client Documents</h2>
@@ -298,7 +296,6 @@ export default function ClientInformation() {
         </div>
       </section>
 
-      {/* Who We Support */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Who We Support</h2>
@@ -347,7 +344,6 @@ export default function ClientInformation() {
         </div>
       </section>
 
-      {/* Getting Help */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Need Help?</h2>
@@ -392,7 +388,6 @@ export default function ClientInformation() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Ready to Begin?</h2>

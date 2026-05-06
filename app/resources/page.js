@@ -56,7 +56,7 @@ export default function Resources() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+    
       <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Resources & Information</h1>
@@ -64,7 +64,6 @@ export default function Resources() {
         </div>
       </section>
 
-      {/* Knowledge Base */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Knowledge Base</h2>
@@ -103,7 +102,6 @@ export default function Resources() {
         </div>
       </section>
 
-      {/* External Resources */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">External Resources & Support</h2>
@@ -214,7 +212,6 @@ export default function Resources() {
         </div>
       </section>
 
-      {/* Frequently Asked Topics */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Common Questions & Topics</h2>
@@ -287,7 +284,6 @@ export default function Resources() {
         </div>
       </section>
 
-      {/* Document Downloads */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Downloadable Resources</h2>
@@ -320,7 +316,6 @@ export default function Resources() {
         </div>
       </section>
 
-      {/* Still Have Questions */}
       <section className="py-16">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Still Have Questions?</h2>

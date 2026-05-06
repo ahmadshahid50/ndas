@@ -9,7 +9,7 @@ export const metadata = {
 export default function NDISSupport() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">NDIS Support</h1>
@@ -17,7 +17,6 @@ export default function NDISSupport() {
         </div>
       </section>
 
-      {/* NDIS Overview */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">How We Work with NDIS</h2>
@@ -27,7 +26,6 @@ export default function NDISSupport() {
         </div>
       </section>
 
-      {/* NDIS Types */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">NDIS Plan Types We Support</h2>
@@ -66,7 +64,6 @@ export default function NDISSupport() {
         </div>
       </section>
 
-      {/* Pricing & Alignment */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Pricing Aligned with NDIS</h2>
@@ -117,7 +114,6 @@ export default function NDISSupport() {
         </div>
       </section>
 
-      {/* Support Services */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Services Covered by NDIS</h2>
@@ -168,7 +164,6 @@ export default function NDISSupport() {
         </div>
       </section>
 
-      {/* Getting Started */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Getting Started with SOVA Care</h2>

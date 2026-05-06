@@ -19,7 +19,7 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* Desktop Menu */}
+          {/* This is Desktp Menu */}
           <div className="hidden md:flex items-center space-x-1">
             <Link href="/" className="px-3 py-2 text-gray-700 hover:text-teal-600  transition">Home</Link>
             <Link href="/about" className="px-3 py-2 text-gray-700 hover:text-teal-600 transition">About</Link>

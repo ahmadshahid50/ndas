@@ -22,7 +22,6 @@ export default function ContactForm() {
     e.preventDefault();
     setError('');
 
-    // Basic validation
     if (!formData.name || !formData.email || !formData.phone) {
       setError('Please fill in all required fields.');
       return;

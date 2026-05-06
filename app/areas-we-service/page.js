@@ -59,7 +59,7 @@ export default function AreasWeService() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+     
       <section className="py-20 bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
@@ -88,7 +88,6 @@ export default function AreasWeService() {
         </div>
       </section>
 
-      {/* Detailed Areas */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Service Area Details</h2>
@@ -109,7 +108,6 @@ export default function AreasWeService() {
         </div>
       </section>
 
-      {/* Why Choose Local */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why Local Support Matters</h2>
@@ -145,7 +143,6 @@ export default function AreasWeService() {
         </div>
       </section>
 
-      {/* Expansion Notice */}
       <section className="py-16 bg-blue-50 border-l-4 border-blue-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-blue-900 mb-4">Service Area Expansion</h2>
@@ -158,7 +155,6 @@ export default function AreasWeService() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Ready for Support?</h2>

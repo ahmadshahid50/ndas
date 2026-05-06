@@ -8,11 +8,9 @@ export default function CustomCursor() {
   const [isMobile, setIsMobile] = useState(true);
 
   useEffect(() => {
-    // Check if mobile/tablet on mount
     const mediaQuery = window.matchMedia("(max-width: 1024px)");
     setIsMobile(mediaQuery.matches);
 
-    // Listen for changes
     const handleMediaChange = (e) => {
       setIsMobile(e.matches);
     };
@@ -67,13 +65,11 @@ export default function CustomCursor() {
 
   return (
     <>
-      { }
       <div
         ref={cursorRef}
         className="fixed top-0 left-0 w-1.5 h-1.5 bg-black rounded-full pointer-events-none z-9999"
       />
       
-      { }
       <div
         ref={cursorBorderRef}
         className="fixed top-0 left-0 w-[27px] h-[27px] border border-black rounded-full pointer-events-none z-9999 opacity-50"

@@ -18,7 +18,7 @@ export const metadata = {
 export default function AgedCare() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Aged Care Support</h1>
@@ -26,7 +26,6 @@ export default function AgedCare() {
         </div>
       </section>
 
-      {/* Overview */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Helping Older Australians Live Independently</h2>
@@ -36,7 +35,6 @@ export default function AgedCare() {
         </div>
       </section>
 
-      {/* Client Types */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Types of Aged Care Support</h2>
@@ -105,7 +103,6 @@ export default function AgedCare() {
         </div>
       </section>
 
-      {/* Services Available */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Support May Include</h2>
@@ -162,7 +159,6 @@ export default function AgedCare() {
         </div>
       </section>
 
-      {/* Key Benefits */}
       <section className="py-16 bg-teal-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why Choose SOVA Care for Aged Care</h2>
@@ -195,7 +191,6 @@ export default function AgedCare() {
         </div>
       </section>
 
-      {/* Getting Started */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Getting Started</h2>

@@ -2,7 +2,6 @@ export async function POST(request) {
   try {
     const data = await request.json();
 
-    // Basic validation
     if (
       !data.name ||
       !data.participantName ||
@@ -18,7 +17,6 @@ export async function POST(request) {
       );
     }
 
-    // Log the booking request
     console.log('New Booking Request:', {
       timestamp: new Date().toISOString(),
       contactName: data.name,
@@ -29,7 +27,6 @@ export async function POST(request) {
       preferredContact: data.preferredContact,
     });
 
-    // Return success response
     return Response.json(
       {
         success: true,

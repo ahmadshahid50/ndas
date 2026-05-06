@@ -9,7 +9,7 @@ export const metadata = {
 export default function RatesPricing() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Rates & Pricing</h1>
@@ -17,7 +17,6 @@ export default function RatesPricing() {
         </div>
       </section>
 
-      {/* Pricing Overview */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Pricing Structure</h2>
@@ -25,7 +24,6 @@ export default function RatesPricing() {
             SOVA Care's pricing is transparent, competitive and aligned with the NDIS Price Guide and industry standards. Below is a general overview of our service rates.
           </p>
 
-          {/* Standard Rates */}
           <div className="bg-white border-2 border-teal-600 rounded-lg p-8 mb-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Standard Support Rates</h3>
             <div className="space-y-4">
@@ -48,7 +46,6 @@ export default function RatesPricing() {
             </div>
           </div>
 
-          {/* Additional Costs */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h4 className="text-xl font-bold text-gray-900 mb-4">Additional Costs</h4>
@@ -96,7 +93,6 @@ export default function RatesPricing() {
         </div>
       </section>
 
-      {/* NDIS Alignment */}
       <section className="py-16 bg-teal-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">NDIS Price Guide Alignment</h2>
@@ -135,7 +131,6 @@ export default function RatesPricing() {
         </div>
       </section>
 
-      {/* Aged Care & Private */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Aged Care & Private Clients</h2>
@@ -164,7 +159,6 @@ export default function RatesPricing() {
         </div>
       </section>
 
-      {/* Pricing Factors */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">What Affects Your Price</h2>
@@ -223,7 +217,6 @@ export default function RatesPricing() {
         </div>
       </section>
 
-      {/* Payment Options */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Payment & Invoicing</h2>
@@ -250,7 +243,6 @@ export default function RatesPricing() {
         </div>
       </section>
 
-      {/* Get Detailed Pricing */}
       <section className="py-16 bg-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Need Detailed Pricing?</h2>

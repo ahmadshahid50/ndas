@@ -2,7 +2,6 @@ export async function POST(request) {
   try {
     const data = await request.json();
 
-    // Basic validation
     if (!data.name || !data.email || !data.phone) {
       return Response.json(
         { error: 'Missing required fields' },
@@ -10,7 +9,6 @@ export async function POST(request) {
       );
     }
 
-    // Log the contact request (console for now - can integrate with email service later)
     console.log('New Contact Inquiry:', {
       timestamp: new Date().toISOString(),
       name: data.name,
@@ -19,7 +17,6 @@ export async function POST(request) {
       message: data.message,
     });
 
-    // Return success response
     return Response.json(
       {
         success: true,

@@ -10,7 +10,7 @@ export const metadata = {
 export default function Contact() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Contact Us</h1>
@@ -18,7 +18,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Contact Information */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
@@ -48,7 +47,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Service Areas */}
           <div className="bg-teal-50 p-8 rounded-lg ">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Areas We Service</h3>
             <p className="text-gray-700 mb-6">
@@ -68,7 +66,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Booking Form Section */}
       <section className="py-16" id="booking">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto">
@@ -87,7 +84,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* FAQ Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions</h2>
@@ -126,7 +122,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Emergency Support */}
       <section className="bg-red-50 border-l-4 border-red-600 p-8 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>

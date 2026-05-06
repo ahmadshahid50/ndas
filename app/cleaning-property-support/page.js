@@ -8,7 +8,7 @@ export const metadata = {
 export default function CleaningPropertySupport() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      
       <section className="bg-gradient-to-r from-[var(--sova-primary)] via-[var(--sova-secondary)] to-[var(--sova-accent)] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold">Cleaning & Property Support Services</h1>
@@ -16,7 +16,6 @@ export default function CleaningPropertySupport() {
         </div>
       </section>
 
-      {/* Services Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
@@ -84,7 +83,6 @@ export default function CleaningPropertySupport() {
         </div>
       </section>
 
-      {/* FAQ Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">

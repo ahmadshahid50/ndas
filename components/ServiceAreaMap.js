@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 
-// Dynamically import the map component to avoid SSR issues
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
 const TileLayer = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
 const Marker = dynamic(() => import('react-leaflet').then(mod => mod.Marker), { ssr: false });
@@ -15,9 +14,9 @@ const ServiceAreaMap = () => {
 
   useEffect(() => {
     setIsClient(true);
-    // Import Leaflet on client side
+    
     import('leaflet').then((leaflet) => {
-      // Fix for default markers in react-leaflet
+      
       delete leaflet.Icon.Default.prototype._getIconUrl;
       leaflet.Icon.Default.mergeOptions({
         iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
@@ -28,7 +27,6 @@ const ServiceAreaMap = () => {
     });
   }, []);
 
-  // Service area coordinates (approximate centers)
   const serviceAreas = [
     {
       name: 'Eastern Suburbs',

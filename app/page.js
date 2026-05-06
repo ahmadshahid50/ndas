@@ -21,249 +21,244 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-    <CustomCursor />
-    <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="relative h-[560px] md:h-[640px] lg:h-[720px]">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/hero2.jpg')" }}
-          aria-hidden="true"
-        />
-        <div className="absolute inset-0 bg-black/55" />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-full flex items-center">
-          <div className="text-center md:text-left text-white lg:max-w-2xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Sova Care Disability & Aged Care Services            </h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto md:mx-0">
-              SOVA Care provides personalised support services designed to help individuals maintain independence, safety, and quality of life.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Link
-                href="/contact#booking"
-                className="bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center shadow-lg"
-              >
-                Enquire Now
-              </Link>
-              <Link
-                href="/contact"
-                className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-teal-600 transition text-center shadow-lg"
-              >
-                Contact Us
-              </Link>
+      <CustomCursor />
+      <div className="min-h-screen bg-white">
+        <section className="relative h-[560px] md:h-[640px] lg:h-[720px]">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: "url('/images/hero2.jpg')" }}
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-black/55" />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 h-full flex items-center">
+            <div className="text-center md:text-left text-white lg:max-w-2xl">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                Sova Care Disability & Aged Care Services            </h1>
+              <p className="text-xl mb-8 max-w-3xl mx-auto md:mx-0">
+                SOVA Care provides personalised support services designed to help individuals maintain independence, safety, and quality of life.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <Link
+                  href="/contact#booking"
+                  className="bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center shadow-lg"
+                >
+                  Enquire Now
+                </Link>
+                <Link
+                  href="/contact"
+                  className="border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-teal-600 transition text-center shadow-lg"
+                >
+                  Contact Us
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Expertise Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">
-            20+ Years of Experience in Care
-          </h2>
-          <p className='text-md  text-center text-gray-900 mb-12'>
-Founder has more than 20 year’s experience in aged care and disability support.</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <ServiceCard
-              icon={AcademicCapIcon}
-              title="Qualifications"
-              items={[
-                'Cert III in Aged Care Work',
-                'Cert IV in Aged Care Work',
-                'Cert IV in Health and Leisure',
-                'First Aid',
-                'CPR certifications',
-              ]}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-            <ServiceCard
-              icon={ShieldCheckIcon}
-              title="Trust & Safety"
-              items={[
-                'Police Check',
-                'NDIS Worker Screening',
-                'Appropriate business and public liability insurance held',
-                'Committed to complying with applicable NDIS and aged care requirements',
-                'All staff are supervised and subject to internal quality and safety procedures',
-              ]}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-            <ServiceCard
-              icon={MapPinIcon}
-              title="Service Areas"
-              items={[
-                'St George Area',
-                'Sutherland Shire',
-                'Southern Sydney',
-                'Inner West',
-                'Eastern Suburbs',
-              ]}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-          </div>
-          {/* <div className="mt-12 text-center">
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">
+              20+ Years of Experience in Care
+            </h2>
+            <p className='text-md  text-center text-gray-900 mb-12'>
+              Founder has more than 20 year’s experience in aged care and disability support.</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <ServiceCard
+                icon={AcademicCapIcon}
+                title="Qualifications"
+                items={[
+                  'Cert III in Aged Care Work',
+                  'Cert IV in Aged Care Work',
+                  'Cert IV in Health and Leisure',
+                  'First Aid',
+                  'CPR certifications',
+                ]}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+              <ServiceCard
+                icon={ShieldCheckIcon}
+                title="Trust & Safety"
+                items={[
+                  'Police Check',
+                  'NDIS Worker Screening',
+                  'Appropriate business and public liability insurance held',
+                  'Committed to complying with applicable NDIS and aged care requirements',
+                  'All staff are supervised and subject to internal quality and safety procedures',
+                ]}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+              <ServiceCard
+                icon={MapPinIcon}
+                title="Service Areas"
+                items={[
+                  'St George Area',
+                  'Sutherland Shire',
+                  'Southern Sydney',
+                  'Inner West',
+                  'Eastern Suburbs',
+                ]}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+            </div>
+            {/* <div className="mt-12 text-center">
             <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
               Our extensive experience and comprehensive qualifications ensure you receive the highest quality care and support. Every team member is thoroughly trained and vetted to provide safe, reliable, and compassionate assistance tailored to your individual needs.
             </p>
             
           </div> */}
-        </div>
-      </section>
-
-      {/* Services Overview */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Support We Provide
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <ServiceCard
-              icon={HeartIcon}
-              title="Personal Care"
-              description="Help with daily personal care needs"
-              items={['Personal hygiene assistance', 'Assisted daily living', 'Toileting assistance', 'Mobility support']}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-           />
-            <ServiceCard
-              icon={WrenchScrewdriverIcon}
-              title="Daily Living Support"
-              description="Assistance with everyday tasks"
-              items={['Meal preparation', 'Medication reminders', 'Household tasks', 'Shopping assistance']}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-            <ServiceCard
-              icon={MapPinIcon}
-              title="Community Access"
-              description="Support to stay active in the community"
-              items={['Social outings', 'Appointments', 'Recreational activities', 'Transport assistance']}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-            <ServiceCard
-              icon={WrenchScrewdriverIcon}
-              title="Domestic Assistance"
-              description="Help maintaining your home"
-              items={['Cleaning', 'Laundry', 'Home organisation', 'Light maintenance']}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-            <ServiceCard
-              icon={UserGroupIcon}
-              title="Companion Care"
-              description="Social and emotional support"
-              items={['Conversation & companionship', 'Emotional support', 'Event assistance', 'Memory support']}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-            <ServiceCard
-              icon={BriefcaseIcon}
-              title="Aged Care Support"
-              description="Specialized support for older Australians"
-              items={['Private arrangements', 'Home Care Package support', 'Self-funded options', 'Flexible scheduling']}
-              newitems={[
-                {text: 'And More', href: '#'},
-              ]}
-            />
-            
           </div>
-          <div className="text-center mt-12">
-            <Link
-              href="/services"
-              className="inline-block bg-teal-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-teal-700 transition"
-            >
-              View All Services
-            </Link>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      {/* How We Work Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            How to Get Started
-          </h2>
-          <div className="relative">
-            {/* Connecting chain line */}
-            <div className="hidden md:block absolute top-6 left-1/2 transform -translate-x-1/2 w-full max-w-4xl">
-              <div className="flex justify-between items-center">
-                <div className="w-12 h-0.5 bg-teal-300"></div>
-                <div className="w-12 h-0.5 bg-teal-300"></div>
-                <div className="w-12 h-0.5 bg-teal-300"></div>
-                <div className="w-12 h-0.5 bg-teal-300"></div>
+        <section className="py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+              Support We Provide
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <ServiceCard
+                icon={HeartIcon}
+                title="Personal Care"
+                description="Help with daily personal care needs"
+                items={['Personal hygiene assistance', 'Assisted daily living', 'Toileting assistance', 'Mobility support']}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+              <ServiceCard
+                icon={WrenchScrewdriverIcon}
+                title="Daily Living Support"
+                description="Assistance with everyday tasks"
+                items={['Meal preparation', 'Medication reminders', 'Household tasks', 'Shopping assistance']}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+              <ServiceCard
+                icon={MapPinIcon}
+                title="Community Access"
+                description="Support to stay active in the community"
+                items={['Social outings', 'Appointments', 'Recreational activities', 'Transport assistance']}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+              <ServiceCard
+                icon={WrenchScrewdriverIcon}
+                title="Domestic Assistance"
+                description="Help maintaining your home"
+                items={['Cleaning', 'Laundry', 'Home organisation', 'Light maintenance']}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+              <ServiceCard
+                icon={UserGroupIcon}
+                title="Companion Care"
+                description="Social and emotional support"
+                items={['Conversation & companionship', 'Emotional support', 'Event assistance', 'Memory support']}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+              <ServiceCard
+                icon={BriefcaseIcon}
+                title="Aged Care Support"
+                description="Specialized support for older Australians"
+                items={['Private arrangements', 'Home Care Package support', 'Self-funded options', 'Flexible scheduling']}
+                newitems={[
+                  { text: 'And More', href: '#' },
+                ]}
+              />
+
+            </div>
+            <div className="text-center mt-12">
+              <Link
+                href="/services"
+                className="inline-block bg-teal-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-teal-700 transition"
+              >
+                View All Services
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+              How to Get Started
+            </h2>
+            <div className="relative">
+
+              <div className="hidden md:block absolute top-6 left-1/2 transform -translate-x-1/2 w-full max-w-4xl">
+                <div className="flex justify-between items-center">
+                  <div className="w-12 h-0.5 bg-teal-300"></div>
+                  <div className="w-12 h-0.5 bg-teal-300"></div>
+                  <div className="w-12 h-0.5 bg-teal-300"></div>
+                  <div className="w-12 h-0.5 bg-teal-300"></div>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+                {[
+                  { step: 1, title: 'Contact Us', desc: 'Reach out by phone, email or form' },
+                  { step: 2, title: 'Discuss Needs', desc: 'Talk about your support requirements' },
+                  { step: 3, title: 'Service Agreement', desc: 'Review service agreement, pricing, suitability and availability.' },
+                  { step: 4, title: 'Paperwork', desc: 'Complete intake and consent forms' },
+                  { step: 5, title: 'Support Begins', desc: 'Start services at your schedule' },
+                ].map((item, index) => (
+                  <div key={item.step} className="text-center relative">
+                    <div className="bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 shadow-lg relative z-10">
+                      {item.step}
+                    </div>
+                    <h3 className="font-semibold text-gray-900 mb-2">{item.title}</h3>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                   
+                    {index < 4 && (
+                      <div className="md:hidden flex justify-center mt-4">
+                        <svg className="w-6 h-6 text-teal-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-              {[
-                { step: 1, title: 'Contact Us', desc: 'Reach out by phone, email or form' },
-                { step: 2, title: 'Discuss Needs', desc: 'Talk about your support requirements' },
-                { step: 3, title: 'Service Agreement', desc: 'Review service agreement, pricing, suitability and availability.' },
-                { step: 4, title: 'Paperwork', desc: 'Complete intake and consent forms' },
-                { step: 5, title: 'Support Begins', desc: 'Start services at your schedule' },
-              ].map((item, index) => (
-                <div key={item.step} className="text-center relative">
-                  <div className="bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4 shadow-lg relative z-10">
-                    {item.step}
-                  </div>
-                  <h3 className="font-semibold text-gray-900 mb-2">{item.title}</h3>
-                  <p className="text-sm text-gray-600">{item.desc}</p>
-                  {/* Arrow for mobile */}
-                  {index < 4 && (
-                    <div className="md:hidden flex justify-center mt-4">
-                      <svg className="w-6 h-6 text-teal-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* CTA Section */}
-      <section className="bg-teal-600 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
-          <p className="text-xl mb-8 text-teal-100">
-            Contact us today for a confidential discussion about your care needs.
-          </p>
-          <Link
-            href="/contact#booking"
-            className="inline-block bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition"
-          >
-            Enquire Now
-          </Link>
-        </div>
-      </section>
+        <section className="bg-teal-600 text-white py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
+            <p className="text-xl mb-8 text-teal-100">
+              Contact us today for a confidential discussion about your care needs.
+            </p>
+            <Link
+              href="/contact#booking"
+              className="inline-block bg-white text-teal-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition"
+            >
+              Enquire Now
+            </Link>
+          </div>
+        </section>
 
-      <section className="bg-red-50 border-l-4 border-red-600 p-8 ">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>
-          <p className="text-red-800 mb-4">
-            For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
-          </p>
-          <p className="text-red-800">
-            For general enquiries about SOVA Care services, please contact us on 0466 983 171 or via our contact form. Service enquiries are monitored during normal business arrangements and are not an emergency service.
-          </p>
-        </div>
-      </section>
-    </div>
+        <section className="bg-red-50 border-l-4 border-red-600 p-8 ">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 className="text-xl font-bold text-red-900 mb-2">Note</h3>
+            <p className="text-red-800 mb-4">
+              For urgent medical emergencies, please call 000 (emergency services) immediately or visit your nearest hospital.
+            </p>
+            <p className="text-red-800">
+              For general enquiries about SOVA Care services, please contact us on 0466 983 171 or via our contact form. Service enquiries are monitored during normal business arrangements and are not an emergency service.
+            </p>
+          </div>
+        </section>
+      </div>
     </>
   );
 }

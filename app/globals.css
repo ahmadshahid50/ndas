@@ -54,7 +54,6 @@ body {
   }
 }
 
-/* Override older teal utility classes with SOVA color palette */
 .bg-teal-600 { background-color: var(--sova-primary) !important; }
 .hover\:bg-teal-700:hover { background-color: var(--sova-secondary) !important; }
 .text-teal-600 { color: var(--sova-primary) !important; }
